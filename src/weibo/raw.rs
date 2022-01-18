@@ -202,7 +202,11 @@ fn normalize_raw_retweeted_post(
     let mut post = Post {
         id: retweeted_post.id,
         mblogid: retweeted_post.mblogid,
-        user: if retweeted_post.user.is_some() { retweeted_post.user.unwrap() } else { User::default() },
+        user: if retweeted_post.user.is_some() {
+            retweeted_post.user.unwrap()
+        } else {
+            User::default()
+        },
         text_raw: retweeted_post.text_raw,
         is_long_text: retweeted_post.is_long_text,
         media_asset: MediaAsset::None,

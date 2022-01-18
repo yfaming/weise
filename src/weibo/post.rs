@@ -59,6 +59,19 @@ impl Post {
     pub fn is_retweet(&self) -> bool {
         self.retweeted_post.is_some()
     }
+
+    pub fn is_valid(&self) -> bool {
+        if self.user.id == 0 {
+            return false
+        }
+        if let Some(retweeted_post) = &self.retweeted_post {
+            if !retweeted_post.is_valid() {
+                return false;
+            }
+        }
+
+        true
+    }
 }
 
 impl User {
