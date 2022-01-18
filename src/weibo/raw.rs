@@ -91,11 +91,12 @@ where
 struct RawRetweetedPost {
     id: i64,
     mblogid: String,
-    user: User,
+    user: Option<User>,
     text_raw: String,
-    #[serde(rename(deserialize = "isLongText"))]
+    #[serde(default, rename(deserialize = "isLongText"))]
     is_long_text: bool,
 
+    #[serde(default)]
     pic_ids: Vec<String>,
     #[serde(default)]
     pic_infos: HashMap<String, PicInfo>,
@@ -119,6 +120,7 @@ struct PicInfoEntry {
 #[derive(Clone, Debug, Deserialize)]
 struct UrlStruct {
     short_url: String,
+    #[serde(default)]
     long_url: String,
     // url_type: i32,
     page_id: Option<String>,
@@ -127,7 +129,9 @@ struct UrlStruct {
 #[derive(Clone, Debug, Deserialize)]
 struct PageInfo {
     page_id: String,
+    #[serde(default)]
     object_type: String,
+    #[serde(default)]
     page_pic: String,
     media_info: Option<Value>,
 }
@@ -198,7 +202,7 @@ fn normalize_raw_retweeted_post(
     let mut post = Post {
         id: retweeted_post.id,
         mblogid: retweeted_post.mblogid,
-        user: retweeted_post.user,
+        user: if retweeted_post.user.is_some() { retweeted_post.user.unwrap() } else { User::default() },
         text_raw: retweeted_post.text_raw,
         is_long_text: retweeted_post.is_long_text,
         media_asset: MediaAsset::None,

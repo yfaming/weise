@@ -1,0 +1,2194 @@
+{
+  "ok": 1,
+  "data": [
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Tue Nov 05 00:48:37 +0800 2019",
+      "id": 4435068183439179,
+      "idstr": "4435068183439179",
+      "mid": "4435068183439179",
+      "mblogid": "IeIhAeqGD",
+      "user": {
+        "id": 1773116334,
+        "idstr": "1773116334",
+        "pc_new": 6,
+        "screen_name": "zhh-4096",
+        "profile_image_url": "https://tvax4.sinaimg.cn/crop.0.0.480.480.50/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=iDK3BojYfE",
+        "profile_url": "/u/1773116334",
+        "verified": false,
+        "verified_type": -1,
+        "domain": "zhh2009",
+        "weihao": "",
+        "avatar_large": "https://tvax4.sinaimg.cn/crop.0.0.480.480.180/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=q5ku5ysn%2BL",
+        "avatar_hd": "https://tvax4.sinaimg.cn/crop.0.0.480.480.1024/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=gygVwxSXkB",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 4,
+        "mbtype": 2,
+        "planet_video": true
+      },
+      "can_edit": false,
+      "text_raw": "如果你对SQL引擎感兴趣，那么你不应该跳到OLTP领域，而是赶紧往OLAP跑。在我没有做Bats大一统SQL引擎前我也是认为PostgreSQL的SQL引擎是最好的，现在再翻看PostgreSQL内核的书讲SQL引擎的实现才发现糟糕得很，可扩展性比calcite差得不只一星半点。OLTP最难也是最有趣的是并发控制和工业级的btree实现。 ​​​",
+      "text": "如果你对SQL引擎感兴趣，那么你不应该跳到OLTP领域，而是赶紧往OLAP跑。在我没有做Bats大一统SQL引擎前我也是认为PostgreSQL的SQL引擎是最好的，现在再翻看PostgreSQL内核的书讲SQL引擎的实现才发现糟糕得很，可扩展性比calcite差得不只一星半点。OLTP最难也是最有趣的是并发控制和工业级的btree实现。 ​​​",
+      "textLength": 280,
+      "source": "微博国际版",
+      "favorited": true,
+      "rid": "0_0_0_4806593962222480546_0_0_0",
+      "pic_ids": [],
+      "geo": null,
+      "pic_num": 0,
+      "is_paid": false,
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 5,
+      "comments_count": 0,
+      "attitudes_count": 16,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Tue Nov 05 00:30:03 +0800 2019",
+      "id": 4435063510959769,
+      "idstr": "4435063510959769",
+      "mid": "4435063510959769",
+      "mblogid": "IeIa341G9",
+      "user": {
+        "id": 1715118170,
+        "idstr": "1715118170",
+        "pc_new": 6,
+        "screen_name": "网路冷眼",
+        "profile_image_url": "https://tva2.sinaimg.cn/crop.0.0.180.180.50/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=4Mgx4HfMX6",
+        "profile_url": "/u/1715118170",
+        "verified": true,
+        "verified_type": 0,
+        "domain": "lewhwa",
+        "weihao": "",
+        "verified_type_ext": 0,
+        "avatar_large": "https://tva2.sinaimg.cn/crop.0.0.180.180.180/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=HRb3LbYyhW",
+        "avatar_hd": "https://tva2.sinaimg.cn/crop.0.0.180.180.1024/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=sMDFEK%2FLnZ",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 7,
+        "mbtype": 12,
+        "planet_video": false
+      },
+      "can_edit": false,
+      "text_raw": "【Exploring lighter alternatives to Electron for hosting a Blazor desktop app】http://t.cn/AiB6xmd9 探索更轻的Electron替代品来托管Blazor桌面应用程序。 ​​​",
+      "text": "【Exploring lighter alternatives to Electron for hosting a Blazor desktop app】&lt;a target=\"_blank\" href=\"http://weibo.cn/sinaurl?toasturl=http%3A%2F%2Fblog.stevensanderson.com%2F2019%2F11%2F01%2Fexploring-lighter-alternatives-to-electron-for-hosting-a-blazor-desktop-app%2F\"&gt;&lt;img class=\"icon-link\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"/&gt;网页链接&lt;/a&gt; 探索更轻的Electron替代品来托管Blazor桌面应用程序。 ​​​",
+      "textLength": 150,
+      "source": "微博 weibo.com",
+      "favorited": true,
+      "rid": "1_0_0_4806593962222480546_0_0_0",
+      "cardid": "star_005",
+      "pic_ids": [
+        "663aa05aly1g8k1y1v8xcj21220tnabs",
+        "663aa05aly1g8k1y1tobpj20xq0jvq3e",
+        "663aa05aly1g8k1y1rt91j20xm0ha74g"
+      ],
+      "geo": null,
+      "pic_num": 3,
+      "pic_infos": {
+        "663aa05aly1g8k1y1v8xcj21220tnabs": {
+          "thumbnail": {
+            "url": "https://wx4.sinaimg.cn/wap180/663aa05aly1g8k1y1v8xcj21220tnabs.jpg",
+            "width": 180,
+            "height": 140,
+            "cut_type": 1,
+            "type": null
+          },
+          "bmiddle": {
+            "url": "https://wx4.sinaimg.cn/wap360/663aa05aly1g8k1y1v8xcj21220tnabs.jpg",
+            "width": 360,
+            "height": 280,
+            "cut_type": 1,
+            "type": null
+          },
+          "large": {
+            "url": "https://wx4.sinaimg.cn/orj960/663aa05aly1g8k1y1v8xcj21220tnabs.jpg",
+            "width": 1232,
+            "height": 960,
+            "cut_type": 1,
+            "type": null
+          },
+          "original": {
+            "url": "https://wx4.sinaimg.cn/orj1080/663aa05aly1g8k1y1v8xcj21220tnabs.jpg",
+            "width": "1370",
+            "height": "1067",
+            "cut_type": 1,
+            "type": null
+          },
+          "largest": {
+            "url": "https://wx4.sinaimg.cn/large/663aa05aly1g8k1y1v8xcj21220tnabs.jpg",
+            "width": "1370",
+            "height": "1067",
+            "cut_type": 1,
+            "type": null
+          },
+          "mw2000": {
+            "url": "https://wx4.sinaimg.cn/mw2000/663aa05aly1g8k1y1v8xcj21220tnabs.jpg",
+            "width": "1370",
+            "height": "1067",
+            "cut_type": 1,
+            "type": null
+          },
+          "object_id": "1042018:60b350a44e8fd856970e14224a063171",
+          "pic_id": "663aa05aly1g8k1y1v8xcj21220tnabs",
+          "photo_tag": 0,
+          "type": "pic",
+          "pic_status": 0
+        },
+        "663aa05aly1g8k1y1tobpj20xq0jvq3e": {
+          "thumbnail": {
+            "url": "https://wx3.sinaimg.cn/wap180/663aa05aly1g8k1y1tobpj20xq0jvq3e.jpg",
+            "width": 180,
+            "height": 105,
+            "cut_type": 1,
+            "type": null
+          },
+          "bmiddle": {
+            "url": "https://wx3.sinaimg.cn/wap360/663aa05aly1g8k1y1tobpj20xq0jvq3e.jpg",
+            "width": 360,
+            "height": 211,
+            "cut_type": 1,
+            "type": null
+          },
+          "large": {
+            "url": "https://wx3.sinaimg.cn/orj960/663aa05aly1g8k1y1tobpj20xq0jvq3e.jpg",
+            "width": "1214",
+            "height": "715",
+            "cut_type": 1,
+            "type": null
+          },
+          "original": {
+            "url": "https://wx3.sinaimg.cn/orj1080/663aa05aly1g8k1y1tobpj20xq0jvq3e.jpg",
+            "width": "1214",
+            "height": "715",
+            "cut_type": 1,
+            "type": null
+          },
+          "largest": {
+            "url": "https://wx3.sinaimg.cn/large/663aa05aly1g8k1y1tobpj20xq0jvq3e.jpg",
+            "width": "1214",
+            "height": "715",
+            "cut_type": 1,
+            "type": null
+          },
+          "mw2000": {
+            "url": "https://wx3.sinaimg.cn/mw2000/663aa05aly1g8k1y1tobpj20xq0jvq3e.jpg",
+            "width": "1214",
+            "height": "715",
+            "cut_type": 1,
+            "type": null
+          },
+          "object_id": "1042018:99e6b1a0096457313a6d95f8f780c620",
+          "pic_id": "663aa05aly1g8k1y1tobpj20xq0jvq3e",
+          "photo_tag": 0,
+          "type": "pic",
+          "pic_status": 0
+        },
+        "663aa05aly1g8k1y1rt91j20xm0ha74g": {
+          "thumbnail": {
+            "url": "https://wx2.sinaimg.cn/wap180/663aa05aly1g8k1y1rt91j20xm0ha74g.jpg",
+            "width": 180,
+            "height": 92,
+            "cut_type": 1,
+            "type": null
+          },
+          "bmiddle": {
+            "url": "https://wx2.sinaimg.cn/wap360/663aa05aly1g8k1y1rt91j20xm0ha74g.jpg",
+            "width": 360,
+            "height": 184,
+            "cut_type": 1,
+            "type": null
+          },
+          "large": {
+            "url": "https://wx2.sinaimg.cn/orj960/663aa05aly1g8k1y1rt91j20xm0ha74g.jpg",
+            "width": "1210",
+            "height": "622",
+            "cut_type": 1,
+            "type": null
+          },
+          "original": {
+            "url": "https://wx2.sinaimg.cn/orj1080/663aa05aly1g8k1y1rt91j20xm0ha74g.jpg",
+            "width": "1210",
+            "height": "622",
+            "cut_type": 1,
+            "type": null
+          },
+          "largest": {
+            "url": "https://wx2.sinaimg.cn/large/663aa05aly1g8k1y1rt91j20xm0ha74g.jpg",
+            "width": "1210",
+            "height": "622",
+            "cut_type": 1,
+            "type": null
+          },
+          "mw2000": {
+            "url": "https://wx2.sinaimg.cn/mw2000/663aa05aly1g8k1y1rt91j20xm0ha74g.jpg",
+            "width": "1210",
+            "height": "622",
+            "cut_type": 1,
+            "type": null
+          },
+          "object_id": "1042018:4dd8744531968bdeedec9d75bb898756",
+          "pic_id": "663aa05aly1g8k1y1rt91j20xm0ha74g",
+          "photo_tag": 0,
+          "type": "pic",
+          "pic_status": 0
+        }
+      },
+      "is_paid": false,
+      "pic_bg_new": "https://img.t.sinajs.cn/t6/skin/public/feed_cover/star_005_mobile_new.png?version=2021091501",
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 20,
+      "comments_count": 2,
+      "attitudes_count": 10,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "url_struct": [
+        {
+          "url_title": "网页链接",
+          "url_type_pic": "https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web.png",
+          "ori_url": "http://weibo.cn/sinaurl?toasturl=http%3A%2F%2Fblog.stevensanderson.com%2F2019%2F11%2F01%2Fexploring-lighter-alternatives-to-electron-for-hosting-a-blazor-desktop-app%2F",
+          "short_url": "http://t.cn/AiB6xmd9",
+          "long_url": "http://blog.stevensanderson.com/2019/11/01/exploring-lighter-alternatives-to-electron-for-hosting-a-blazor-desktop-app/",
+          "url_type": 0,
+          "result": true,
+          "actionlog": {
+            "act_type": 1,
+            "act_code": 300,
+            "oid": "",
+            "uuid": "",
+            "cardid": "",
+            "lcardid": "",
+            "uicode": "",
+            "luicode": "",
+            "fid": "",
+            "lfid": "",
+            "ext": "mid:4435063510959769|rid:1_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/AiB6xmd9|long_url:http://blog.stevensanderson.com/2019/11/01/exploring-lighter-alternatives-to-electron-for-hosting-a-blazor-desktop-app/|comment_id:|miduid:1715118170|rootmid:4435063510959769|rootuid:1715118170|authorid:|uuid:|is_ad_weibo:0|analysis_card:url_struct"
+          },
+          "storage_type": "",
+          "hide": 0,
+          "position": 2,
+          "need_save_obj": 1,
+          "log": "su=AiB6xmd9&amp;mark=&amp;mid=4435063510959769"
+        }
+      ],
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Mon Nov 04 23:57:16 +0800 2019",
+      "id": 4435055265158216,
+      "idstr": "4435055265158216",
+      "mid": "4435055265158216",
+      "mblogid": "IeHWKlDT2",
+      "user": {
+        "id": 1773116334,
+        "idstr": "1773116334",
+        "pc_new": 6,
+        "screen_name": "zhh-4096",
+        "profile_image_url": "https://tvax4.sinaimg.cn/crop.0.0.480.480.50/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=iDK3BojYfE",
+        "profile_url": "/u/1773116334",
+        "verified": false,
+        "verified_type": -1,
+        "domain": "zhh2009",
+        "weihao": "",
+        "avatar_large": "https://tvax4.sinaimg.cn/crop.0.0.480.480.180/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=q5ku5ysn%2BL",
+        "avatar_hd": "https://tvax4.sinaimg.cn/crop.0.0.480.480.1024/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=gygVwxSXkB",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 4,
+        "mbtype": 2,
+        "planet_video": true
+      },
+      "can_edit": false,
+      "text_raw": "从VLDB 2019的那篇论文的REFE了RENCES又找到了这篇 http://t.cn/AiB6GZal 越来越像我所做过的工作了。",
+      "text": "从VLDB 2019的那篇论文的REFE了RENCES又找到了这篇 &lt;a target=\"_blank\" href=\"http://t.cn/AiB6GZal\"&gt;&lt;img class=\"icon-link\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"/&gt;网页链接&lt;/a&gt; 越来越像我所做过的工作了。",
+      "source": "微博 weibo.com",
+      "favorited": true,
+      "rid": "2_0_0_4806593962222480546_0_0_0",
+      "pic_ids": [],
+      "geo": null,
+      "pic_num": 0,
+      "is_paid": false,
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 3,
+      "comments_count": 0,
+      "attitudes_count": 5,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "repost_type": 4,
+      "share_repost_type": 0,
+      "url_struct": [
+        {
+          "url_title": "网页链接",
+          "url_type_pic": "https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web.png",
+          "ori_url": "http://weibo.cn/sinaurl?toasturl=http%3A%2F%2Fwww.vldb.org%2Fpvldb%2Fvol12%2Fp611-maiyya.pdf",
+          "short_url": "http://t.cn/AiB6zP7f",
+          "long_url": "http://www.vldb.org/pvldb/vol12/p611-maiyya.pdf",
+          "url_type": 0,
+          "result": true,
+          "actionlog": {
+            "act_type": 1,
+            "act_code": 300,
+            "oid": "",
+            "uuid": "",
+            "cardid": "",
+            "lcardid": "",
+            "uicode": "",
+            "luicode": "",
+            "fid": "",
+            "lfid": "",
+            "ext": "mid:4435047707238094|rid:2_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/AiB6zP7f|long_url:http://www.vldb.org/pvldb/vol12/p611-maiyya.pdf|comment_id:|miduid:1773116334|rootmid:4435047707238094|rootuid:1773116334|authorid:|uuid:|is_ad_weibo:0|analysis_card:url_struct"
+          },
+          "storage_type": "",
+          "hide": 0,
+          "position": 2,
+          "need_save_obj": 1,
+          "log": "su=AiB6zP7f&amp;mark=&amp;mid=4435047707238094"
+        },
+        {
+          "url_title": "Snapshot Isolation综述",
+          "url_type_pic": "https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web.png",
+          "ori_url": "sinaweibo://slidebrowser?url=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F54979396&amp;oid=3000000147%3A449e5cfa4e9d89eb702a5574ab6fa119&amp;wbrowser_core=1&amp;mid=4435047707238094",
+          "page_id": "2315893000000147:449e5cfa4e9d89eb702a5574ab6fa119",
+          "short_url": "http://t.cn/EqrKcHl",
+          "long_url": "https://zhuanlan.zhihu.com/p/54979396",
+          "url_type": 39,
+          "result": true,
+          "actionlog": {
+            "act_type": 1,
+            "act_code": 300,
+            "oid": "3000000147:449e5cfa4e9d89eb702a5574ab6fa119",
+            "uuid": 4329232032379446,
+            "cardid": "",
+            "lcardid": "",
+            "uicode": "",
+            "luicode": "",
+            "fid": "",
+            "lfid": "",
+            "ext": "mid:4435047707238094|rid:2_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/EqrKcHl|long_url:https://zhuanlan.zhihu.com/p/54979396|comment_id:|miduid:1773116334|rootmid:4435047707238094|rootuid:1773116334|authorid:|uuid:4329232032379446|is_ad_weibo:0|analysis_card:url_struct"
+          },
+          "storage_type": "",
+          "hide": 0,
+          "object_type": "",
+          "need_save_obj": 0,
+          "log": "su=EqrKcHl&amp;mark=&amp;mid=4435047707238094"
+        },
+        {
+          "url_title": "网页链接",
+          "url_type_pic": "https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web.png",
+          "ori_url": "http://t.cn/AiB6GZal",
+          "short_url": "http://t.cn/AiB6GZal",
+          "long_url": "",
+          "url_type": 0,
+          "result": false,
+          "actionlog": {
+            "act_type": 1,
+            "act_code": 300,
+            "oid": "",
+            "uuid": "",
+            "cardid": "",
+            "lcardid": "",
+            "uicode": "",
+            "luicode": "",
+            "fid": "",
+            "lfid": "",
+            "ext": "mid:4435055265158216|rid:2_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/AiB6GZal|long_url:|comment_id:|miduid:1773116334|rootmid:4435055265158216|rootuid:1773116334|authorid:|uuid:|is_ad_weibo:0|analysis_card:url_struct"
+          },
+          "storage_type": "",
+          "hide": 0,
+          "position": 2,
+          "need_save_obj": 1
+        }
+      ],
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": [],
+      "retweeted_status": {
+        "visible": {
+          "type": 0,
+          "list_id": 0
+        },
+        "created_at": "Mon Nov 04 23:27:14 +0800 2019",
+        "id": 4435047707238094,
+        "idstr": "4435047707238094",
+        "mid": "4435047707238094",
+        "mblogid": "IeHKyumXs",
+        "user": {
+          "id": 1773116334,
+          "idstr": "1773116334",
+          "pc_new": 6,
+          "screen_name": "zhh-4096",
+          "profile_image_url": "https://tvax4.sinaimg.cn/crop.0.0.480.480.50/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=iDK3BojYfE",
+          "profile_url": "/u/1773116334",
+          "verified": false,
+          "verified_type": -1,
+          "domain": "zhh2009",
+          "weihao": "",
+          "avatar_large": "https://tvax4.sinaimg.cn/crop.0.0.480.480.180/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=q5ku5ysn%2BL",
+          "avatar_hd": "https://tvax4.sinaimg.cn/crop.0.0.480.480.1024/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=gygVwxSXkB",
+          "follow_me": false,
+          "following": true,
+          "mbrank": 4,
+          "mbtype": 2,
+          "planet_video": true
+        },
+        "can_edit": false,
+        "text_raw": "刚看到一篇VLDB 2019的论文 http://t.cn/AiB6zP7f 看了ABSTRACT就迫不及待想发一条微博了。 看来学术圈也在努力思考怎么统一处理分布式事务和副本强一致性问题了，我又提前几年走在了前面了，就如我在别人的这篇文章中所说的那样 http://t.cn/EqrKcHl 统一是迟早的，就看啥时普及而已。 ​​​",
+        "text": "刚看到一篇VLDB 2019的论文 &lt;a target=\"_blank\" href=\"http://weibo.cn/sinaurl?toasturl=http%3A%2F%2Fwww.vldb.org%2Fpvldb%2Fvol12%2Fp611-maiyya.pdf\"&gt;&lt;img class=\"icon-link\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"/&gt;网页链接&lt;/a&gt; 看了ABSTRACT就迫不及待想发一条微博了。 看来学术圈也在努力思考怎么统一处理分布式事务和副本强一致性问题了，我又提前几年走在了前面了，就如我在别人的这篇文章中所说的那样 &lt;a target=\"_blank\" href=\"http://t.cn/EqrKcHl\"&gt;&lt;img class=\"icon-link\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"/&gt;Snapshot Isolation综述&lt;/a&gt; 统一是迟早的，就看啥时普及而已。 ​​​",
+        "textLength": 265,
+        "source": "微博 weibo.com",
+        "favorited": false,
+        "rid": "2_0_0_4806593962222480546_0_0_0",
+        "pic_ids": [],
+        "geo": null,
+        "pic_num": 0,
+        "is_paid": false,
+        "mblog_vip_type": 0,
+        "number_display_strategy": {
+          "apply_scenario_flag": 3,
+          "display_text_min_number": 1000000,
+          "display_text": "100万+"
+        },
+        "reposts_count": 14,
+        "comments_count": 1,
+        "attitudes_count": 11,
+        "attitudes_status": 0,
+        "isLongText": false,
+        "mlevel": 0,
+        "content_auth": 0,
+        "is_show_bulletin": 2,
+        "comment_manage_info": {
+          "comment_permission_type": -1,
+          "approval_comment_type": 0,
+          "comment_sort_type": 0
+        },
+        "mblogtype": 0,
+        "showFeedRepost": false,
+        "showFeedComment": false,
+        "pictureViewerSign": false,
+        "showPictureViewer": false,
+        "rcList": []
+      },
+      "page_info": {
+        "type": 0,
+        "page_id": "2315893000000147:449e5cfa4e9d89eb702a5574ab6fa119",
+        "object_type": "webpage",
+        "tips": "",
+        "page_desc": "Snapshot Isolation对于接触过数据库领域的同学来说，几乎是入门级的知识了。原因有几点：一来，谈到事务的隔离级别，必然会有所谓Read Uncommitted、Read Committed、Repeatable Read、Serializable，以及Snapshot Isolation；二来，主流的数据库，单机如MySQL、MongoDB，分布式如TiDB、OceanBase，几乎都实现了Snapshot Isolation这一隔离级别；三来，且在非形式化的定义中，Snapshot Isolation也很易于理解，易于实现。 但通过最近对Snapshot Isolatino的系统性研究，发现事情并不是这么简单，例如这几个问题：",
+        "page_title": "Snapshot Isolation综述",
+        "page_pic": "http://r.sinaimg.cn/large/tc/pic1_zhimg_com/9e8ba4925301a65f876d660d6002b88b.jpg",
+        "type_icon": "",
+        "page_url": "sinaweibo://slidebrowser?url=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F54979396&amp;oid=3000000147%3A449e5cfa4e9d89eb702a5574ab6fa119&amp;wbrowser_core=1&amp;mid=4435047707238094",
+        "object_id": "3000000147:449e5cfa4e9d89eb702a5574ab6fa119",
+        "act_status": 0,
+        "actionlog": {
+          "act_type": 1,
+          "act_code": 300,
+          "oid": "3000000147:449e5cfa4e9d89eb702a5574ab6fa119",
+          "uuid": 4329232032379446,
+          "cardid": "",
+          "lcardid": "",
+          "uicode": "",
+          "luicode": "",
+          "fid": "",
+          "lfid": "",
+          "ext": "mid:4435047707238094|rid:2_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/EqrKcHl|long_url:https://zhuanlan.zhihu.com/p/54979396|comment_id:|miduid:1773116334|rootmid:4435047707238094|rootuid:1773116334|authorid:|uuid:4329232032379446|is_ad_weibo:0|analysis_card:page_info"
+        }
+      }
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Mon Nov 04 14:01:15 +0800 2019",
+      "id": 4434905268591730,
+      "idstr": "4434905268591730",
+      "mid": "4434905268591730",
+      "mblogid": "IeE2OA36i",
+      "user": {
+        "id": 1715118170,
+        "idstr": "1715118170",
+        "pc_new": 6,
+        "screen_name": "网路冷眼",
+        "profile_image_url": "https://tva2.sinaimg.cn/crop.0.0.180.180.50/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=4Mgx4HfMX6",
+        "profile_url": "/u/1715118170",
+        "verified": true,
+        "verified_type": 0,
+        "domain": "lewhwa",
+        "weihao": "",
+        "verified_type_ext": 0,
+        "avatar_large": "https://tva2.sinaimg.cn/crop.0.0.180.180.180/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=HRb3LbYyhW",
+        "avatar_hd": "https://tva2.sinaimg.cn/crop.0.0.180.180.1024/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=sMDFEK%2FLnZ",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 7,
+        "mbtype": 12,
+        "planet_video": false
+      },
+      "can_edit": false,
+      "text_raw": "【Please think architecture】http://t.cn/AiBMdHz2 请考虑体系结构。 ​​​",
+      "text": "【Please think architecture】&lt;a target=\"_blank\" href=\"http://weibo.cn/sinaurl?toasturl=https%3A%2F%2Flists.freebsd.org%2Fpipermail%2Ffreebsd-arch%2F2007-August%2F006763.html\"&gt;&lt;img class=\"icon-link\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"/&gt;网页链接&lt;/a&gt; 请考虑体系结构。 ​​​",
+      "textLength": 66,
+      "source": "皮皮时光机",
+      "favorited": true,
+      "rid": "3_0_0_4806593962222480546_0_0_0",
+      "cardid": "star_005",
+      "pic_ids": [
+        "663aa05aly1g8lyy2r6fcj20ki0mk0wa"
+      ],
+      "geo": null,
+      "pic_num": 1,
+      "pic_infos": {
+        "663aa05aly1g8lyy2r6fcj20ki0mk0wa": {
+          "thumbnail": {
+            "url": "https://wx3.sinaimg.cn/wap180/663aa05aly1g8lyy2r6fcj20ki0mk0wa.jpg",
+            "width": 163,
+            "height": 180,
+            "cut_type": 1,
+            "type": null
+          },
+          "bmiddle": {
+            "url": "https://wx3.sinaimg.cn/wap360/663aa05aly1g8lyy2r6fcj20ki0mk0wa.jpg",
+            "width": 327,
+            "height": 360,
+            "cut_type": 1,
+            "type": null
+          },
+          "large": {
+            "url": "https://wx3.sinaimg.cn/orj960/663aa05aly1g8lyy2r6fcj20ki0mk0wa.jpg",
+            "width": "738",
+            "height": "812",
+            "cut_type": 1,
+            "type": null
+          },
+          "original": {
+            "url": "https://wx3.sinaimg.cn/orj1080/663aa05aly1g8lyy2r6fcj20ki0mk0wa.jpg",
+            "width": "738",
+            "height": "812",
+            "cut_type": 1,
+            "type": null
+          },
+          "largest": {
+            "url": "https://wx3.sinaimg.cn/large/663aa05aly1g8lyy2r6fcj20ki0mk0wa.jpg",
+            "width": "738",
+            "height": "812",
+            "cut_type": 1,
+            "type": null
+          },
+          "mw2000": {
+            "url": "https://wx3.sinaimg.cn/mw2000/663aa05aly1g8lyy2r6fcj20ki0mk0wa.jpg",
+            "width": "738",
+            "height": "812",
+            "cut_type": 1,
+            "type": null
+          },
+          "object_id": "1042018:8d5c147c596386afd2facc7482cd2a49",
+          "pic_id": "663aa05aly1g8lyy2r6fcj20ki0mk0wa",
+          "photo_tag": 0,
+          "type": "pic",
+          "pic_status": 0
+        }
+      },
+      "is_paid": false,
+      "pic_bg_new": "https://img.t.sinajs.cn/t6/skin/public/feed_cover/star_005_mobile_new.png?version=2021091501",
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 3,
+      "comments_count": 0,
+      "attitudes_count": 7,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "url_struct": [
+        {
+          "url_title": "网页链接",
+          "url_type_pic": "https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web.png",
+          "ori_url": "http://weibo.cn/sinaurl?toasturl=https%3A%2F%2Flists.freebsd.org%2Fpipermail%2Ffreebsd-arch%2F2007-August%2F006763.html",
+          "short_url": "http://t.cn/AiBMdHz2",
+          "long_url": "https://lists.freebsd.org/pipermail/freebsd-arch/2007-August/006763.html",
+          "url_type": 0,
+          "result": true,
+          "actionlog": {
+            "act_type": 1,
+            "act_code": 300,
+            "oid": "",
+            "uuid": "",
+            "cardid": "",
+            "lcardid": "",
+            "uicode": "",
+            "luicode": "",
+            "fid": "",
+            "lfid": "",
+            "ext": "mid:4434905268591730|rid:3_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/AiBMdHz2|long_url:https://lists.freebsd.org/pipermail/freebsd-arch/2007-August/006763.html|comment_id:|miduid:1715118170|rootmid:4434905268591730|rootuid:1715118170|authorid:|uuid:|is_ad_weibo:0|analysis_card:url_struct"
+          },
+          "storage_type": "",
+          "hide": 0,
+          "position": 2,
+          "need_save_obj": 1,
+          "log": "su=AiBMdHz2&amp;mark=&amp;mid=4434905268591730"
+        }
+      ],
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Mon Nov 04 12:00:06 +0800 2019",
+      "id": 4434874779337592,
+      "idstr": "4434874779337592",
+      "mid": "4434874779337592",
+      "mblogid": "IeDfDDb8k",
+      "user": {
+        "id": 1715118170,
+        "idstr": "1715118170",
+        "pc_new": 6,
+        "screen_name": "网路冷眼",
+        "profile_image_url": "https://tva2.sinaimg.cn/crop.0.0.180.180.50/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=4Mgx4HfMX6",
+        "profile_url": "/u/1715118170",
+        "verified": true,
+        "verified_type": 0,
+        "domain": "lewhwa",
+        "weihao": "",
+        "verified_type_ext": 0,
+        "avatar_large": "https://tva2.sinaimg.cn/crop.0.0.180.180.180/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=HRb3LbYyhW",
+        "avatar_hd": "https://tva2.sinaimg.cn/crop.0.0.180.180.1024/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=sMDFEK%2FLnZ",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 7,
+        "mbtype": 12,
+        "planet_video": false
+      },
+      "can_edit": false,
+      "text_raw": "【Cache Poisoned Denial of Service】http://t.cn/AiBMGTww 缓存中毒的拒绝服务。 ​​​",
+      "text": "【Cache Poisoned Denial of Service】&lt;a target=\"_blank\" href=\"http://weibo.cn/sinaurl?toasturl=https%3A%2F%2Fcpdos.org\"&gt;&lt;img class=\"icon-link\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"/&gt;网页链接&lt;/a&gt; 缓存中毒的拒绝服务。 ​​​",
+      "textLength": 77,
+      "source": "皮皮时光机",
+      "favorited": true,
+      "rid": "4_0_0_4806593962222480546_0_0_0",
+      "cardid": "star_005",
+      "pic_ids": [],
+      "geo": null,
+      "pic_num": 0,
+      "is_paid": false,
+      "pic_bg_new": "https://img.t.sinajs.cn/t6/skin/public/feed_cover/star_005_mobile_new.png?version=2021091501",
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 1,
+      "comments_count": 0,
+      "attitudes_count": 4,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "url_struct": [
+        {
+          "url_title": "网页链接",
+          "url_type_pic": "https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web.png",
+          "ori_url": "http://weibo.cn/sinaurl?toasturl=https%3A%2F%2Fcpdos.org",
+          "short_url": "http://t.cn/AiBMGTww",
+          "long_url": "https://cpdos.org",
+          "url_type": 0,
+          "result": true,
+          "actionlog": {
+            "act_type": 1,
+            "act_code": 300,
+            "oid": "",
+            "uuid": "",
+            "cardid": "",
+            "lcardid": "",
+            "uicode": "",
+            "luicode": "",
+            "fid": "",
+            "lfid": "",
+            "ext": "mid:4434874779337592|rid:4_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/AiBMGTww|long_url:https://cpdos.org|comment_id:|miduid:1715118170|rootmid:4434874779337592|rootuid:1715118170|authorid:|uuid:|is_ad_weibo:0|analysis_card:url_struct"
+          },
+          "storage_type": "",
+          "hide": 0,
+          "position": 2,
+          "need_save_obj": 1,
+          "log": "su=AiBMGTww&amp;mark=&amp;mid=4434874779337592"
+        }
+      ],
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Mon Nov 04 10:01:04 +0800 2019",
+      "id": 4434844823611359,
+      "idstr": "4434844823611359",
+      "mid": "4434844823611359",
+      "mblogid": "IeCtkf9tJ",
+      "user": {
+        "id": 1715118170,
+        "idstr": "1715118170",
+        "pc_new": 6,
+        "screen_name": "网路冷眼",
+        "profile_image_url": "https://tva2.sinaimg.cn/crop.0.0.180.180.50/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=4Mgx4HfMX6",
+        "profile_url": "/u/1715118170",
+        "verified": true,
+        "verified_type": 0,
+        "domain": "lewhwa",
+        "weihao": "",
+        "verified_type_ext": 0,
+        "avatar_large": "https://tva2.sinaimg.cn/crop.0.0.180.180.180/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=HRb3LbYyhW",
+        "avatar_hd": "https://tva2.sinaimg.cn/crop.0.0.180.180.1024/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=sMDFEK%2FLnZ",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 7,
+        "mbtype": 12,
+        "planet_video": false
+      },
+      "can_edit": false,
+      "text_raw": "【What Most Remote Companies Don’t Tell You About Remote Work】http://t.cn/Ai1l7x0y 大多数远程公司没有告诉你的远程工作。 ​​​",
+      "text": "【What Most Remote Companies Don’t Tell You About Remote Work】&lt;a target=\"_blank\" href=\"http://weibo.cn/sinaurl?toasturl=https%3A%2F%2Fdoist.com%2Fblog%2Fmental-health-and-remote-work%2F\"&gt;&lt;img class=\"icon-link\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"/&gt;网页链接&lt;/a&gt; 大多数远程公司没有告诉你的远程工作。 ​​​",
+      "textLength": 121,
+      "source": "皮皮时光机",
+      "favorited": true,
+      "rid": "5_0_0_4806593962222480546_0_0_0",
+      "cardid": "star_005",
+      "pic_ids": [
+        "663aa05aly1g8ls067bkkj20rs0dwgq3"
+      ],
+      "geo": null,
+      "pic_num": 1,
+      "pic_infos": {
+        "663aa05aly1g8ls067bkkj20rs0dwgq3": {
+          "thumbnail": {
+            "url": "https://wx3.sinaimg.cn/wap180/663aa05aly1g8ls067bkkj20rs0dwgq3.jpg",
+            "width": 180,
+            "height": 90,
+            "cut_type": 1,
+            "type": null
+          },
+          "bmiddle": {
+            "url": "https://wx3.sinaimg.cn/wap360/663aa05aly1g8ls067bkkj20rs0dwgq3.jpg",
+            "width": 360,
+            "height": 180,
+            "cut_type": 1,
+            "type": null
+          },
+          "large": {
+            "url": "https://wx3.sinaimg.cn/orj960/663aa05aly1g8ls067bkkj20rs0dwgq3.jpg",
+            "width": "1000",
+            "height": "500",
+            "cut_type": 1,
+            "type": null
+          },
+          "original": {
+            "url": "https://wx3.sinaimg.cn/orj1080/663aa05aly1g8ls067bkkj20rs0dwgq3.jpg",
+            "width": "1000",
+            "height": "500",
+            "cut_type": 1,
+            "type": null
+          },
+          "largest": {
+            "url": "https://wx3.sinaimg.cn/large/663aa05aly1g8ls067bkkj20rs0dwgq3.jpg",
+            "width": "1000",
+            "height": "500",
+            "cut_type": 1,
+            "type": null
+          },
+          "mw2000": {
+            "url": "https://wx3.sinaimg.cn/mw2000/663aa05aly1g8ls067bkkj20rs0dwgq3.jpg",
+            "width": "1000",
+            "height": "500",
+            "cut_type": 1,
+            "type": null
+          },
+          "object_id": "1042018:46bb1fbde32999f8df28e353a12c6261",
+          "pic_id": "663aa05aly1g8ls067bkkj20rs0dwgq3",
+          "photo_tag": 0,
+          "type": "pic",
+          "pic_status": 0
+        }
+      },
+      "is_paid": false,
+      "pic_bg_new": "https://img.t.sinajs.cn/t6/skin/public/feed_cover/star_005_mobile_new.png?version=2021091501",
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 6,
+      "comments_count": 1,
+      "attitudes_count": 5,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "url_struct": [
+        {
+          "url_title": "网页链接",
+          "url_type_pic": "https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web.png",
+          "ori_url": "http://weibo.cn/sinaurl?toasturl=https%3A%2F%2Fdoist.com%2Fblog%2Fmental-health-and-remote-work%2F",
+          "short_url": "http://t.cn/Ai1l7x0y",
+          "long_url": "https://doist.com/blog/mental-health-and-remote-work/",
+          "url_type": 0,
+          "result": true,
+          "actionlog": {
+            "act_type": 1,
+            "act_code": 300,
+            "oid": "",
+            "uuid": "",
+            "cardid": "",
+            "lcardid": "",
+            "uicode": "",
+            "luicode": "",
+            "fid": "",
+            "lfid": "",
+            "ext": "mid:4434844823611359|rid:5_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/Ai1l7x0y|long_url:https://doist.com/blog/mental-health-and-remote-work/|comment_id:|miduid:1715118170|rootmid:4434844823611359|rootuid:1715118170|authorid:|uuid:|is_ad_weibo:0|analysis_card:url_struct"
+          },
+          "storage_type": "",
+          "hide": 0,
+          "position": 2,
+          "need_save_obj": 1,
+          "log": "su=Ai1l7x0y&amp;mark=&amp;mid=4434844823611359"
+        }
+      ],
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Mon Nov 04 08:00:03 +0800 2019",
+      "id": 4434814368917966,
+      "idstr": "4434814368917966",
+      "mid": "4434814368917966",
+      "mblogid": "IeBGcBpYa",
+      "user": {
+        "id": 2526195981,
+        "idstr": "2526195981",
+        "pc_new": 6,
+        "screen_name": "图灵社区",
+        "profile_image_url": "https://tva1.sinaimg.cn/crop.21.28.424.424.50/9692b10djw8f35i277iy0j20dc0dcgmm.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=gme%2FUE2%2Ftj",
+        "profile_url": "/u/2526195981",
+        "verified": true,
+        "verified_type": 2,
+        "domain": "ituring",
+        "weihao": "",
+        "verified_type_ext": 50,
+        "avatar_large": "https://tva1.sinaimg.cn/crop.21.28.424.424.180/9692b10djw8f35i277iy0j20dc0dcgmm.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=Rs12OjJcGa",
+        "avatar_hd": "https://tva1.sinaimg.cn/crop.21.28.424.424.1024/9692b10djw8f35i277iy0j20dc0dcgmm.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=CrFQ5fPZvY",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 0,
+        "mbtype": 0,
+        "planet_video": false
+      },
+      "can_edit": false,
+      "text_raw": "#每周一个编程语言# #2019第45周# #2019倒数第9周# #脚本语言# #Tcl#  \n\n【Tcl】\nTcl（Tool Command Language） 是由 John Ousterhout 于 1988 年创建的一种脚本语言，经常被用于快速原型开发 RAD、脚本编程、GUI 编程和测试等方面。Tcl 紧密集成“图形工具箱”扩展 Tk（Tool Kit），简称为 Tcl/Tk。Tc ​​​",
+      "text": "&lt;a href=\"//s.weibo.com/weibo?q=%23%E6%AF%8F%E5%91%A8%E4%B8%80%E4%B8%AA%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%23\" target=\"_blank\"&gt;#每周一个编程语言#&lt;/a&gt; &lt;a href=\"//s.weibo.com/weibo?q=%232019%E7%AC%AC45%E5%91%A8%23\" target=\"_blank\"&gt;#2019第45周#&lt;/a&gt; &lt;a href=\"//s.weibo.com/weibo?q=%232019%E5%80%92%E6%95%B0%E7%AC%AC9%E5%91%A8%23\" target=\"_blank\"&gt;#2019倒数第9周#&lt;/a&gt; &lt;a href=\"//s.weibo.com/weibo?q=%23%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%23\" target=\"_blank\"&gt;#脚本语言#&lt;/a&gt; &lt;a href=\"//s.weibo.com/weibo?q=%23Tcl%23\" target=\"_blank\"&gt;#Tcl#&lt;/a&gt;  &lt;br /&gt;&lt;br /&gt;【Tcl】&lt;br /&gt;Tcl（Tool Command Language） 是由 John Ousterhout 于 1988 年创建的一种脚本语言，经常被用于快速原型开发 RAD、脚本编程、GUI 编程和测试等方面。Tcl 紧密集成“图形工具箱”扩展 Tk（Tool Kit），简称为 Tcl/Tk。Tc ​​​ ...&lt;span class=\"expand\"&gt;展开&lt;/span&gt;",
+      "textLength": 322,
+      "source": "微博 weibo.com",
+      "favorited": true,
+      "rid": "6_0_0_4806593962222480546_0_0_0",
+      "pic_ids": [
+        "9692b10dly1g8dnbfzbppj20r91cgdoy"
+      ],
+      "geo": null,
+      "pic_num": 1,
+      "pic_infos": {
+        "9692b10dly1g8dnbfzbppj20r91cgdoy": {
+          "thumbnail": {
+            "url": "https://wx2.sinaimg.cn/wap180/9692b10dly1g8dnbfzbppj20r91cgdoy.jpg",
+            "width": 101,
+            "height": 180,
+            "cut_type": 1,
+            "type": null
+          },
+          "bmiddle": {
+            "url": "https://wx2.sinaimg.cn/wap360/9692b10dly1g8dnbfzbppj20r91cgdoy.jpg",
+            "width": 202,
+            "height": 360,
+            "cut_type": 1,
+            "type": null
+          },
+          "large": {
+            "url": "https://wx2.sinaimg.cn/orj960/9692b10dly1g8dnbfzbppj20r91cgdoy.jpg",
+            "width": 960,
+            "height": 1706,
+            "cut_type": 1,
+            "type": null
+          },
+          "original": {
+            "url": "https://wx2.sinaimg.cn/orj1080/9692b10dly1g8dnbfzbppj20r91cgdoy.jpg",
+            "width": "981",
+            "height": "1744",
+            "cut_type": 1,
+            "type": null
+          },
+          "largest": {
+            "url": "https://wx2.sinaimg.cn/large/9692b10dly1g8dnbfzbppj20r91cgdoy.jpg",
+            "width": "981",
+            "height": "1744",
+            "cut_type": 1,
+            "type": null
+          },
+          "mw2000": {
+            "url": "https://wx2.sinaimg.cn/mw2000/9692b10dly1g8dnbfzbppj20r91cgdoy.jpg",
+            "width": "981",
+            "height": "1744",
+            "cut_type": 1,
+            "type": null
+          },
+          "object_id": "1042018:88753a58a2d4803e86871b9347489576",
+          "pic_id": "9692b10dly1g8dnbfzbppj20r91cgdoy",
+          "photo_tag": 0,
+          "type": "pic",
+          "pic_status": 0
+        }
+      },
+      "is_paid": false,
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 0,
+      "comments_count": 0,
+      "attitudes_count": 0,
+      "attitudes_status": 0,
+      "continue_tag": {
+        "title": "全文",
+        "pic": "http://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_article.png",
+        "scheme": "sinaweibo://detail?mblogid=4434814368917966&amp;id=4434814368917966"
+      },
+      "isLongText": true,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "topic_struct": [
+        {
+          "title": "",
+          "topic_url": "sinaweibo://searchall?containerid=231522&amp;q=%23%E6%AF%8F%E5%91%A8%E4%B8%80%E4%B8%AA%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%23&amp;extparam=%23%E6%AF%8F%E5%91%A8%E4%B8%80%E4%B8%AA%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%23",
+          "topic_title": "每周一个编程语言",
+          "is_invalid": 0
+        },
+        {
+          "title": "",
+          "topic_url": "sinaweibo://searchall?containerid=231522&amp;q=%232019%E7%AC%AC45%E5%91%A8%23&amp;extparam=%232019%E7%AC%AC45%E5%91%A8%23",
+          "topic_title": "2019第45周",
+          "is_invalid": 0
+        },
+        {
+          "title": "",
+          "topic_url": "sinaweibo://searchall?containerid=231522&amp;q=%232019%E5%80%92%E6%95%B0%E7%AC%AC9%E5%91%A8%23&amp;extparam=%232019%E5%80%92%E6%95%B0%E7%AC%AC9%E5%91%A8%23",
+          "topic_title": "2019倒数第9周",
+          "is_invalid": 0
+        },
+        {
+          "title": "",
+          "topic_url": "sinaweibo://searchall?containerid=231522&amp;q=%23%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%23",
+          "topic_title": "脚本语言",
+          "is_invalid": 0
+        },
+        {
+          "title": "",
+          "topic_url": "sinaweibo://searchall?containerid=231522&amp;q=%23Tcl%23",
+          "topic_title": "Tcl",
+          "is_invalid": 0
+        }
+      ],
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Mon Nov 04 08:01:45 +0800 2019",
+      "id": 4434814800763091,
+      "idstr": "4434814800763091",
+      "mid": "4434814800763091",
+      "mblogid": "IeBGU3cvV",
+      "user": {
+        "id": 1715118170,
+        "idstr": "1715118170",
+        "pc_new": 6,
+        "screen_name": "网路冷眼",
+        "profile_image_url": "https://tva2.sinaimg.cn/crop.0.0.180.180.50/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=4Mgx4HfMX6",
+        "profile_url": "/u/1715118170",
+        "verified": true,
+        "verified_type": 0,
+        "domain": "lewhwa",
+        "weihao": "",
+        "verified_type_ext": 0,
+        "avatar_large": "https://tva2.sinaimg.cn/crop.0.0.180.180.180/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=HRb3LbYyhW",
+        "avatar_hd": "https://tva2.sinaimg.cn/crop.0.0.180.180.1024/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=sMDFEK%2FLnZ",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 7,
+        "mbtype": 12,
+        "planet_video": false
+      },
+      "can_edit": false,
+      "text_raw": "【Implementing C++ syntax highlighting from scratch for my IDE】http://t.cn/AiBfB8lT 在我的IDE中从头实现c++语法高亮显示。 ​​​",
+      "text": "【Implementing C++ syntax highlighting from scratch for my IDE】&lt;a target=\"_blank\" href=\"https://www.youtube.com/watch?v=snZrayZhGzo\"&gt;&lt;img class=\"icon-link\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"/&gt;网页链接&lt;/a&gt; 在我的IDE中从头实现c++语法高亮显示。 ​​​",
+      "textLength": 121,
+      "source": "皮皮时光机",
+      "favorited": true,
+      "rid": "7_0_0_4806593962222480546_0_0_0",
+      "cardid": "star_005",
+      "pic_ids": [
+        "663aa05aly1g8lok11n2mj20zk0k0x60"
+      ],
+      "geo": null,
+      "pic_num": 1,
+      "pic_infos": {
+        "663aa05aly1g8lok11n2mj20zk0k0x60": {
+          "thumbnail": {
+            "url": "https://wx1.sinaimg.cn/wap180/663aa05aly1g8lok11n2mj20zk0k0x60.jpg",
+            "width": 180,
+            "height": 101,
+            "cut_type": 1,
+            "type": null
+          },
+          "bmiddle": {
+            "url": "https://wx1.sinaimg.cn/wap360/663aa05aly1g8lok11n2mj20zk0k0x60.jpg",
+            "width": 360,
+            "height": 202,
+            "cut_type": 1,
+            "type": null
+          },
+          "large": {
+            "url": "https://wx1.sinaimg.cn/orj960/663aa05aly1g8lok11n2mj20zk0k0x60.jpg",
+            "width": "1280",
+            "height": "720",
+            "cut_type": 1,
+            "type": null
+          },
+          "original": {
+            "url": "https://wx1.sinaimg.cn/orj1080/663aa05aly1g8lok11n2mj20zk0k0x60.jpg",
+            "width": "1280",
+            "height": "720",
+            "cut_type": 1,
+            "type": null
+          },
+          "largest": {
+            "url": "https://wx1.sinaimg.cn/large/663aa05aly1g8lok11n2mj20zk0k0x60.jpg",
+            "width": "1280",
+            "height": "720",
+            "cut_type": 1,
+            "type": null
+          },
+          "mw2000": {
+            "url": "https://wx1.sinaimg.cn/mw2000/663aa05aly1g8lok11n2mj20zk0k0x60.jpg",
+            "width": "1280",
+            "height": "720",
+            "cut_type": 1,
+            "type": null
+          },
+          "object_id": "1042018:e121fd25a7c464232b71bf45e6e9b1be",
+          "pic_id": "663aa05aly1g8lok11n2mj20zk0k0x60",
+          "photo_tag": 0,
+          "type": "pic",
+          "pic_status": 0
+        }
+      },
+      "is_paid": false,
+      "pic_bg_new": "https://img.t.sinajs.cn/t6/skin/public/feed_cover/star_005_mobile_new.png?version=2021091501",
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 6,
+      "comments_count": 0,
+      "attitudes_count": 9,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "url_struct": [
+        {
+          "url_title": "网页链接",
+          "url_type_pic": "https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web.png",
+          "ori_url": "https://www.youtube.com/watch?v=snZrayZhGzo",
+          "short_url": "http://t.cn/AiBfB8lT",
+          "long_url": "https://www.youtube.com/watch?v=snZrayZhGzo",
+          "url_type": 0,
+          "result": true,
+          "actionlog": {
+            "act_type": 1,
+            "act_code": 300,
+            "oid": "",
+            "uuid": "",
+            "cardid": "",
+            "lcardid": "",
+            "uicode": "",
+            "luicode": "",
+            "fid": "",
+            "lfid": "",
+            "ext": "mid:4434814800763091|rid:7_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/AiBfB8lT|long_url:https://www.youtube.com/watch?v=snZrayZhGzo|comment_id:|miduid:1715118170|rootmid:4434814800763091|rootuid:1715118170|authorid:|uuid:|is_ad_weibo:0|analysis_card:url_struct"
+          },
+          "storage_type": "",
+          "hide": 0,
+          "position": 2,
+          "need_save_obj": 1,
+          "log": "su=AiBfB8lT&amp;mark=&amp;mid=4434814800763091"
+        }
+      ],
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Mon Nov 04 08:36:25 +0800 2019",
+      "id": 4434823520882532,
+      "idstr": "4434823520882532",
+      "mid": "4434823520882532",
+      "mblogid": "IeBUY3HAo",
+      "user": {
+        "id": 2765244861,
+        "idstr": "2765244861",
+        "pc_new": 0,
+        "screen_name": "睡眼惺忪的小叶先森",
+        "profile_image_url": "https://tvax4.sinaimg.cn/crop.0.0.751.751.50/a4d249bdly8gc6ew0ge92j20kv0kvwg2.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=2Ov35KFZ0q",
+        "profile_url": "/u/2765244861",
+        "verified": false,
+        "verified_type": -1,
+        "domain": "yebangyu",
+        "weihao": "",
+        "avatar_large": "https://tvax4.sinaimg.cn/crop.0.0.751.751.180/a4d249bdly8gc6ew0ge92j20kv0kvwg2.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=K9OEGVLZG4",
+        "avatar_hd": "https://tvax4.sinaimg.cn/crop.0.0.751.751.1024/a4d249bdly8gc6ew0ge92j20kv0kvwg2.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=Tsp1LK0FVm",
+        "follow_me": false,
+        "following": false,
+        "mbrank": 0,
+        "mbtype": 0,
+        "planet_video": true
+      },
+      "can_edit": false,
+      "text_raw": "超级赞同马老师，eecs关注的数学更应该是可计算性。我最近正在尝试建立计算历史学，如果成功，那么我将为学科建设做出巨大贡献，跻身当代一流的历史学家行列。",
+      "text": "超级赞同马老师，eecs关注的数学更应该是可计算性。我最近正在尝试建立计算历史学，如果成功，那么我将为学科建设做出巨大贡献，跻身当代一流的历史学家行列。",
+      "source": "iPhone客户端",
+      "favorited": true,
+      "rid": "8_0_0_4806593962222480546_0_0_0",
+      "pic_ids": [],
+      "geo": null,
+      "pic_num": 0,
+      "is_paid": false,
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 7,
+      "comments_count": 1,
+      "attitudes_count": 7,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "repost_type": 1,
+      "share_repost_type": 0,
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": [],
+      "retweeted_status": {
+        "visible": {
+          "type": 0,
+          "list_id": 0
+        },
+        "created_at": "Mon Nov 04 03:42:53 +0800 2019",
+        "id": 4434749654992441,
+        "idstr": "4434749654992441",
+        "mid": "4434749654992441",
+        "mblogid": "IezZPkWLf",
+        "user": {
+          "id": 3235040884,
+          "idstr": "3235040884",
+          "pc_new": 7,
+          "screen_name": "毅马当闲",
+          "profile_image_url": "https://tvax4.sinaimg.cn/crop.0.73.440.440.50/c0d2ce74ly8gf84o1cfxxj20c80gbab3.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=O6WEW4go%2Bk",
+          "profile_url": "/u/3235040884",
+          "verified": false,
+          "verified_type": -1,
+          "domain": "",
+          "weihao": "",
+          "avatar_large": "https://tvax4.sinaimg.cn/crop.0.73.440.440.180/c0d2ce74ly8gf84o1cfxxj20c80gbab3.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=VSB74r2dkA",
+          "avatar_hd": "https://tvax4.sinaimg.cn/crop.0.73.440.440.1024/c0d2ce74ly8gf84o1cfxxj20c80gbab3.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=fzp%2F1e37ln",
+          "follow_me": false,
+          "following": false,
+          "mbrank": 3,
+          "mbtype": 12,
+          "planet_video": false
+        },
+        "can_edit": false,
+        "text_raw": "大家都只看到Gilbert Strang的经典教材，但是大家知不知道，这样的经典教材出来需要什么样的土壤环境？有机会去美国大学图书馆或者Amazon上看看，有多少不同的线性代数书，针对不同层次、不同背景、不同专业的学生？好书是在竞争中相互借鉴、取长补短、脱颖而出的。我正在写的高维数据低维结构的书，在 ​​​",
+        "text": "大家都只看到Gilbert Strang的经典教材，但是大家知不知道，这样的经典教材出来需要什么样的土壤环境？有机会去美国大学图书馆或者Amazon上看看，有多少不同的线性代数书，针对不同层次、不同背景、不同专业的学生？好书是在竞争中相互借鉴、取长补短、脱颖而出的。我正在写的高维数据低维结构的书，在 ​​​ ...&lt;span class=\"expand\"&gt;展开&lt;/span&gt;",
+        "textLength": 892,
+        "source": "微博 weibo.com",
+        "favorited": false,
+        "buttons": [
+          {
+            "type": "follow",
+            "name": "加关注",
+            "params": {
+              "uid": 3235040884,
+              "disable_group": 1,
+              "extparams": {
+                "followcardid": "1008080010_"
+              }
+            },
+            "actionlog": {
+              "act_code": "92",
+              "oid": "4434749654992441"
+            }
+          }
+        ],
+        "rid": "8_0_0_4806593962222480546_0_0_0",
+        "pic_ids": [],
+        "geo": null,
+        "pic_num": 0,
+        "is_paid": false,
+        "mblog_vip_type": 0,
+        "number_display_strategy": {
+          "apply_scenario_flag": 3,
+          "display_text_min_number": 1000000,
+          "display_text": "100万+"
+        },
+        "reposts_count": 336,
+        "comments_count": 61,
+        "attitudes_count": 558,
+        "attitudes_status": 0,
+        "continue_tag": {
+          "title": "全文",
+          "pic": "http://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_article.png",
+          "scheme": "sinaweibo://detail?mblogid=4434749654992441&amp;id=4434749654992441"
+        },
+        "isLongText": true,
+        "mlevel": 0,
+        "content_auth": 0,
+        "is_show_bulletin": 2,
+        "comment_manage_info": {
+          "comment_permission_type": -1,
+          "approval_comment_type": 0,
+          "comment_sort_type": 0
+        },
+        "mblogtype": 0,
+        "showFeedRepost": false,
+        "showFeedComment": false,
+        "pictureViewerSign": false,
+        "showPictureViewer": false,
+        "rcList": []
+      }
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Mon Nov 04 01:34:50 +0800 2019",
+      "id": 4434717426270335,
+      "idstr": "4434717426270335",
+      "mid": "4434717426270335",
+      "mblogid": "Iez9Qqjcr",
+      "user": {
+        "profile_url": "/u/undefined",
+        "planet_video": true
+      },
+      "text_raw": "抱歉，此微博已被删除。查看帮助：http://t.cn/8sYl7Qb",
+      "text": "抱歉，此微博已被删除。查看帮助：&lt;a target=\"_blank\" href=\"http://t.cn/8sYl7Qb\"&gt;&lt;img class=\"icon-link\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"/&gt;网页链接&lt;/a&gt;",
+      "favorited": false,
+      "attitudes_status": 0,
+      "deleted": "1",
+      "share_repost_type": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Sun Nov 03 18:02:13 +0800 2019",
+      "id": 4434603521397521,
+      "idstr": "4434603521397521",
+      "mid": "4434603521397521",
+      "mblogid": "Iewc85RyF",
+      "user": {
+        "id": 1642628345,
+        "idstr": "1642628345",
+        "pc_new": 7,
+        "screen_name": "玩家老C",
+        "profile_image_url": "https://tvax1.sinaimg.cn/crop.0.0.600.600.50/61e884f9ly8gygs5kkrvpj20go0go3zk.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=2kDLwDkWVl",
+        "profile_url": "/u/1642628345",
+        "verified": false,
+        "verified_type": -1,
+        "domain": "lichuang",
+        "weihao": "",
+        "avatar_large": "https://tvax1.sinaimg.cn/crop.0.0.600.600.180/61e884f9ly8gygs5kkrvpj20go0go3zk.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=BvgxywglCZ",
+        "avatar_hd": "https://tvax1.sinaimg.cn/crop.0.0.600.600.1024/61e884f9ly8gygs5kkrvpj20go0go3zk.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=u6B55nNB6Q",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 2,
+        "mbtype": 2,
+        "planet_video": false
+      },
+      "can_edit": false,
+      "text_raw": "今年听了无数次“内卷化”这个词，一直不知道具体含义，知乎这个回答挺形象的，我的理解：从事某件事情的人，其付出的努力，并没有把这个蛋糕变的更大，而是抢夺别人的蛋糕，这就是内卷化。http://t.cn/AiB5kyLF ​​​",
+      "text": "今年听了无数次“内卷化”这个词，一直不知道具体含义，知乎这个回答挺形象的，我的理解：从事某件事情的人，其付出的努力，并没有把这个蛋糕变的更大，而是抢夺别人的蛋糕，这就是内卷化。 ​​​",
+      "textLength": 196,
+      "source": "iPhone客户端",
+      "favorited": true,
+      "rid": "10_0_0_4806593962222480546_0_0_0",
+      "pic_ids": [],
+      "geo": null,
+      "pic_num": 0,
+      "is_paid": false,
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 8,
+      "comments_count": 0,
+      "attitudes_count": 7,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "url_struct": [
+        {
+          "url_title": "究竟何为「内卷化」？生活中或者历史上有什么通俗易懂的内卷化的例子？",
+          "url_type_pic": "https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web.png",
+          "ori_url": "sinaweibo://slidebrowser?url=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F283762516%2Fanswer%2F829869474&amp;oid=3000000147%3A6eb9fc99782cc59ab60eb101949eb49b&amp;wbrowser_core=1&amp;mid=4434603521397521",
+          "page_id": "2315893000000147:6eb9fc99782cc59ab60eb101949eb49b",
+          "short_url": "http://t.cn/AiB5kyLF",
+          "long_url": "https://www.zhihu.com/question/283762516/answer/829869474",
+          "url_type": 39,
+          "result": true,
+          "actionlog": {
+            "act_type": 1,
+            "act_code": 300,
+            "oid": "3000000147:6eb9fc99782cc59ab60eb101949eb49b",
+            "uuid": 4434603627512187,
+            "cardid": "",
+            "lcardid": "",
+            "uicode": "",
+            "luicode": "",
+            "fid": "",
+            "lfid": "",
+            "ext": "mid:4434603521397521|rid:10_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/AiB5kyLF|long_url:https://www.zhihu.com/question/283762516/answer/829869474|comment_id:|miduid:1642628345|rootmid:4434603521397521|rootuid:1642628345|authorid:|uuid:4434603627512187|is_ad_weibo:0|analysis_card:url_struct"
+          },
+          "storage_type": "",
+          "hide": 1,
+          "object_type": "",
+          "need_save_obj": 0,
+          "log": "su=AiB5kyLF&amp;mark=&amp;mid=4434603521397521"
+        }
+      ],
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": [],
+      "page_info": {
+        "type": 0,
+        "page_id": "2315893000000147:6eb9fc99782cc59ab60eb101949eb49b",
+        "object_type": "webpage",
+        "tips": "",
+        "page_desc": "我刚刚搬家。从天通苑，搬到了顺义的南法信。 天通苑是亚洲最大的居住区，人口可达70~90万，早高峰的地铁5号线天通苑站是北京一道亮丽的风景线。 搬家后，通勤地铁变成了窗明几净的15号线。新家这里住户远远少于天通苑，在我的想象中，地铁应当是和谐得多的景象。 结果，早高峰期，我发现我很难挤上地铁。地铁开过来永远是满满当当的，往往每次停车也就够强行挤上去两三个人。 我在这里慢慢排队，常常要等三趟以上地铁才能上得去。而且15号线的发车频次明显比5号线低，三趟车过去，黄花菜都凉了。第一天，我迟到了半个小时，因为上不去地铁。",
+        "page_title": "究竟何为「内卷化」？生活中或者历史上有什么通俗易懂的内卷化的例子？",
+        "page_pic": "http://img.t.sinajs.cn/t6/style/images/face/face_card_longwb.png",
+        "type_icon": "",
+        "page_url": "sinaweibo://slidebrowser?url=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F283762516%2Fanswer%2F829869474&amp;oid=3000000147%3A6eb9fc99782cc59ab60eb101949eb49b&amp;wbrowser_core=1&amp;mid=4434603521397521",
+        "object_id": "3000000147:6eb9fc99782cc59ab60eb101949eb49b",
+        "act_status": 0,
+        "actionlog": {
+          "act_type": 1,
+          "act_code": 300,
+          "oid": "3000000147:6eb9fc99782cc59ab60eb101949eb49b",
+          "uuid": 4434603627512187,
+          "cardid": "",
+          "lcardid": "",
+          "uicode": "",
+          "luicode": "",
+          "fid": "",
+          "lfid": "",
+          "ext": "mid:4434603521397521|rid:10_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/AiB5kyLF|long_url:https://www.zhihu.com/question/283762516/answer/829869474|comment_id:|miduid:1642628345|rootmid:4434603521397521|rootuid:1642628345|authorid:|uuid:4434603627512187|is_ad_weibo:0|analysis_card:page_info"
+        }
+      }
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Sun Nov 03 13:37:54 +0800 2019",
+      "id": 4434537004247696,
+      "idstr": "4434537004247696",
+      "mid": "4434537004247696",
+      "mblogid": "IeusQhP1e",
+      "user": {
+        "id": 1773116334,
+        "idstr": "1773116334",
+        "pc_new": 6,
+        "screen_name": "zhh-4096",
+        "profile_image_url": "https://tvax4.sinaimg.cn/crop.0.0.480.480.50/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=iDK3BojYfE",
+        "profile_url": "/u/1773116334",
+        "verified": false,
+        "verified_type": -1,
+        "domain": "zhh2009",
+        "weihao": "",
+        "avatar_large": "https://tvax4.sinaimg.cn/crop.0.0.480.480.180/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=q5ku5ysn%2BL",
+        "avatar_hd": "https://tvax4.sinaimg.cn/crop.0.0.480.480.1024/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=gygVwxSXkB",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 4,
+        "mbtype": 2,
+        "planet_video": true
+      },
+      "can_edit": false,
+      "text_raw": "不管是做Rust的人跑去国内某数据库创业公司，还是做OS的人抄cassandra做ScyllaDB，就如我以前所说，程序语言和OS跟DB是不同的领域，其他领域你再有经验，DB是小白的话，短期内也难搞出什么名堂的。\n\nScyllaDB的快也是在OS层面用了非常规的东西，也不属于DB领域的创新，只能疲于抄别人的特性，再加上用 ​​​",
+      "text": "不管是做Rust的人跑去国内某数据库创业公司，还是做OS的人抄cassandra做ScyllaDB，就如我以前所说，程序语言和OS跟DB是不同的领域，其他领域你再有经验，DB是小白的话，短期内也难搞出什么名堂的。&lt;br /&gt;&lt;br /&gt;ScyllaDB的快也是在OS层面用了非常规的东西，也不属于DB领域的创新，只能疲于抄别人的特性，再加上用 ​​​ ...&lt;span class=\"expand\"&gt;展开&lt;/span&gt;",
+      "textLength": 398,
+      "source": "微博国际版",
+      "favorited": true,
+      "rid": "11_0_0_4806593962222480546_0_0_0",
+      "pic_ids": [],
+      "geo": null,
+      "pic_num": 0,
+      "is_paid": false,
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 1,
+      "comments_count": 0,
+      "attitudes_count": 5,
+      "attitudes_status": 0,
+      "continue_tag": {
+        "title": "全文",
+        "pic": "http://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_article.png",
+        "scheme": "sinaweibo://detail?mblogid=4434537004247696&amp;id=4434537004247696"
+      },
+      "isLongText": true,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Sun Nov 03 13:41:54 +0800 2019",
+      "id": 4434538010594492,
+      "idstr": "4434538010594492",
+      "mid": "4434538010594492",
+      "mblogid": "Ieuut2uEA",
+      "user": {
+        "id": 1400792745,
+        "idstr": "1400792745",
+        "pc_new": 6,
+        "screen_name": "郑树新",
+        "profile_image_url": "https://tva3.sinaimg.cn/crop.0.1.431.431.50/537e66a9jw1ebtdvg0dppj20c10d43zi.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=6095kRmFT1",
+        "profile_url": "/u/1400792745",
+        "verified": false,
+        "verified_type": -1,
+        "domain": "zsxxsz",
+        "weihao": "",
+        "avatar_large": "https://tva3.sinaimg.cn/crop.0.1.431.431.180/537e66a9jw1ebtdvg0dppj20c10d43zi.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=QR6zRD%2Fqgh",
+        "avatar_hd": "https://tva3.sinaimg.cn/crop.0.1.431.431.1024/537e66a9jw1ebtdvg0dppj20c10d43zi.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=iWYXCIxG6J",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 0,
+        "mbtype": 0,
+        "planet_video": true
+      },
+      "can_edit": false,
+      "text_raw": "Java发展这么多年，被人诟病最多的是内存占用和性能问题，最近用java nio写了个非阻塞的高并发服务，测了一下，性能还是非常高的，看来还是 java 语言本身容易造成大部分程序员写出性能低下的程序造成的。 ​​​",
+      "text": "Java发展这么多年，被人诟病最多的是内存占用和性能问题，最近用java nio写了个非阻塞的高并发服务，测了一下，性能还是非常高的，看来还是 java 语言本身容易造成大部分程序员写出性能低下的程序造成的。 ​​​",
+      "textLength": 190,
+      "source": "iPhone客户端",
+      "favorited": true,
+      "rid": "12_0_0_4806593962222480546_0_0_0",
+      "pic_ids": [],
+      "geo": null,
+      "pic_num": 0,
+      "is_paid": false,
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 2,
+      "comments_count": 5,
+      "attitudes_count": 9,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Sun Nov 03 13:55:34 +0800 2019",
+      "id": 4434541450039939,
+      "idstr": "4434541450039939",
+      "mid": "4434541450039939",
+      "mblogid": "IeuA10aob",
+      "user": {
+        "id": 1773116334,
+        "idstr": "1773116334",
+        "pc_new": 6,
+        "screen_name": "zhh-4096",
+        "profile_image_url": "https://tvax4.sinaimg.cn/crop.0.0.480.480.50/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=iDK3BojYfE",
+        "profile_url": "/u/1773116334",
+        "verified": false,
+        "verified_type": -1,
+        "domain": "zhh2009",
+        "weihao": "",
+        "avatar_large": "https://tvax4.sinaimg.cn/crop.0.0.480.480.180/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=q5ku5ysn%2BL",
+        "avatar_hd": "https://tvax4.sinaimg.cn/crop.0.0.480.480.1024/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=gygVwxSXkB",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 4,
+        "mbtype": 2,
+        "planet_video": true
+      },
+      "can_edit": false,
+      "text_raw": "如果没有解决一个痛点，只是用不同的实现语言和工具去山寨一个已经流行的开源项目是很难成功的。我一直讲某国内创业公司的数据库能获得几百个用户确实是MySQL的水平扩展能力太菜了，连个像样的普遍被接受的开源分库分表中间件都没有，所以它家的数据库只要稍微兼容一下MySQL，哪怕OLTP的能力至今依然很 ​​​",
+      "text": "如果没有解决一个痛点，只是用不同的实现语言和工具去山寨一个已经流行的开源项目是很难成功的。我一直讲某国内创业公司的数据库能获得几百个用户确实是MySQL的水平扩展能力太菜了，连个像样的普遍被接受的开源分库分表中间件都没有，所以它家的数据库只要稍微兼容一下MySQL，哪怕OLTP的能力至今依然很 ​​​ ...&lt;span class=\"expand\"&gt;展开&lt;/span&gt;",
+      "textLength": 652,
+      "source": "微博国际版",
+      "favorited": true,
+      "rid": "13_0_0_4806593962222480546_0_0_0",
+      "pic_ids": [],
+      "geo": null,
+      "pic_num": 0,
+      "is_paid": false,
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 2,
+      "comments_count": 0,
+      "attitudes_count": 5,
+      "attitudes_status": 0,
+      "continue_tag": {
+        "title": "全文",
+        "pic": "http://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_article.png",
+        "scheme": "sinaweibo://detail?mblogid=4434541450039939&amp;id=4434541450039939"
+      },
+      "isLongText": true,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Sun Nov 03 10:01:22 +0800 2019",
+      "id": 4434482515913772,
+      "idstr": "4434482515913772",
+      "mid": "4434482515913772",
+      "mblogid": "Iet2XoOrq",
+      "user": {
+        "id": 1715118170,
+        "idstr": "1715118170",
+        "pc_new": 6,
+        "screen_name": "网路冷眼",
+        "profile_image_url": "https://tva2.sinaimg.cn/crop.0.0.180.180.50/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=4Mgx4HfMX6",
+        "profile_url": "/u/1715118170",
+        "verified": true,
+        "verified_type": 0,
+        "domain": "lewhwa",
+        "weihao": "",
+        "verified_type_ext": 0,
+        "avatar_large": "https://tva2.sinaimg.cn/crop.0.0.180.180.180/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=HRb3LbYyhW",
+        "avatar_hd": "https://tva2.sinaimg.cn/crop.0.0.180.180.1024/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=sMDFEK%2FLnZ",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 7,
+        "mbtype": 12,
+        "planet_video": false
+      },
+      "can_edit": false,
+      "text_raw": "【Building a constraint programming solver from scratch】http://t.cn/AiBGh3ky 从零开始构建一个约束规划求解程序。 ​​​",
+      "text": "【Building a constraint programming solver from scratch】&lt;a target=\"_blank\" href=\"http://weibo.cn/sinaurl?toasturl=https%3A%2F%2Fopensourc.es%2Fblog%2Fconstraint-solver-1\"&gt;&lt;img class=\"icon-link\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"/&gt;网页链接&lt;/a&gt; 从零开始构建一个约束规划求解程序。 ​​​",
+      "textLength": 112,
+      "source": "皮皮时光机",
+      "favorited": true,
+      "rid": "14_0_0_4806593962222480546_0_0_0",
+      "cardid": "star_005",
+      "pic_ids": [
+        "663aa05aly1g8kme6eaopj21hc0u0wnv"
+      ],
+      "geo": null,
+      "pic_num": 1,
+      "pic_infos": {
+        "663aa05aly1g8kme6eaopj21hc0u0wnv": {
+          "thumbnail": {
+            "url": "https://wx1.sinaimg.cn/wap180/663aa05aly1g8kme6eaopj21hc0u0wnv.jpg",
+            "width": 180,
+            "height": 101,
+            "cut_type": 1,
+            "type": null
+          },
+          "bmiddle": {
+            "url": "https://wx1.sinaimg.cn/wap360/663aa05aly1g8kme6eaopj21hc0u0wnv.jpg",
+            "width": 360,
+            "height": 202,
+            "cut_type": 1,
+            "type": null
+          },
+          "large": {
+            "url": "https://wx1.sinaimg.cn/orj960/663aa05aly1g8kme6eaopj21hc0u0wnv.jpg",
+            "width": 1706,
+            "height": 960,
+            "cut_type": 1,
+            "type": null
+          },
+          "original": {
+            "url": "https://wx1.sinaimg.cn/orj1080/663aa05aly1g8kme6eaopj21hc0u0wnv.jpg",
+            "width": "1920",
+            "height": "1080",
+            "cut_type": 1,
+            "type": null
+          },
+          "largest": {
+            "url": "https://wx1.sinaimg.cn/large/663aa05aly1g8kme6eaopj21hc0u0wnv.jpg",
+            "width": "1920",
+            "height": "1080",
+            "cut_type": 1,
+            "type": null
+          },
+          "mw2000": {
+            "url": "https://wx1.sinaimg.cn/mw2000/663aa05aly1g8kme6eaopj21hc0u0wnv.jpg",
+            "width": "1920",
+            "height": "1080",
+            "cut_type": 1,
+            "type": null
+          },
+          "object_id": "1042018:39901b18901647a0a3f77d36d8224b97",
+          "pic_id": "663aa05aly1g8kme6eaopj21hc0u0wnv",
+          "photo_tag": 0,
+          "type": "pic",
+          "pic_status": 0
+        }
+      },
+      "is_paid": false,
+      "pic_bg_new": "https://img.t.sinajs.cn/t6/skin/public/feed_cover/star_005_mobile_new.png?version=2021091501",
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 1,
+      "comments_count": 0,
+      "attitudes_count": 4,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "url_struct": [
+        {
+          "url_title": "网页链接",
+          "url_type_pic": "https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web.png",
+          "ori_url": "http://weibo.cn/sinaurl?toasturl=https%3A%2F%2Fopensourc.es%2Fblog%2Fconstraint-solver-1",
+          "short_url": "http://t.cn/AiBGh3ky",
+          "long_url": "https://opensourc.es/blog/constraint-solver-1",
+          "url_type": 0,
+          "result": true,
+          "actionlog": {
+            "act_type": 1,
+            "act_code": 300,
+            "oid": "",
+            "uuid": "",
+            "cardid": "",
+            "lcardid": "",
+            "uicode": "",
+            "luicode": "",
+            "fid": "",
+            "lfid": "",
+            "ext": "mid:4434482515913772|rid:14_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/AiBGh3ky|long_url:https://opensourc.es/blog/constraint-solver-1|comment_id:|miduid:1715118170|rootmid:4434482515913772|rootuid:1715118170|authorid:|uuid:|is_ad_weibo:0|analysis_card:url_struct"
+          },
+          "storage_type": "",
+          "hide": 0,
+          "position": 2,
+          "need_save_obj": 1,
+          "log": "su=AiBGh3ky&amp;mark=&amp;mid=4434482515913772"
+        }
+      ],
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Sun Nov 03 10:02:12 +0800 2019",
+      "id": 4434482721811159,
+      "idstr": "4434482721811159",
+      "mid": "4434482721811159",
+      "mblogid": "Iet3i7Baf",
+      "user": {
+        "id": 1715118170,
+        "idstr": "1715118170",
+        "pc_new": 6,
+        "screen_name": "网路冷眼",
+        "profile_image_url": "https://tva2.sinaimg.cn/crop.0.0.180.180.50/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=4Mgx4HfMX6",
+        "profile_url": "/u/1715118170",
+        "verified": true,
+        "verified_type": 0,
+        "domain": "lewhwa",
+        "weihao": "",
+        "verified_type_ext": 0,
+        "avatar_large": "https://tva2.sinaimg.cn/crop.0.0.180.180.180/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=HRb3LbYyhW",
+        "avatar_hd": "https://tva2.sinaimg.cn/crop.0.0.180.180.1024/663aa05ajw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=sMDFEK%2FLnZ",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 7,
+        "mbtype": 12,
+        "planet_video": false
+      },
+      "can_edit": false,
+      "text_raw": "【Building a constraint programming solver from scratch】http://t.cn/AiBGh3ky 从零开始构建一个约束规划求解程序。 ​​​",
+      "text": "【Building a constraint programming solver from scratch】&lt;a target=\"_blank\" href=\"http://weibo.cn/sinaurl?toasturl=https%3A%2F%2Fopensourc.es%2Fblog%2Fconstraint-solver-1\"&gt;&lt;img class=\"icon-link\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"/&gt;网页链接&lt;/a&gt; 从零开始构建一个约束规划求解程序。 ​​​",
+      "textLength": 112,
+      "source": "皮皮时光机",
+      "favorited": true,
+      "rid": "15_0_0_4806593962222480546_0_0_0",
+      "cardid": "star_005",
+      "pic_ids": [
+        "663aa05aly1g8kmf14wplj21hc0u0wnv"
+      ],
+      "geo": null,
+      "pic_num": 1,
+      "pic_infos": {
+        "663aa05aly1g8kmf14wplj21hc0u0wnv": {
+          "thumbnail": {
+            "url": "https://wx4.sinaimg.cn/wap180/663aa05aly1g8kmf14wplj21hc0u0wnv.jpg",
+            "width": 180,
+            "height": 101,
+            "cut_type": 1,
+            "type": null
+          },
+          "bmiddle": {
+            "url": "https://wx4.sinaimg.cn/wap360/663aa05aly1g8kmf14wplj21hc0u0wnv.jpg",
+            "width": 360,
+            "height": 202,
+            "cut_type": 1,
+            "type": null
+          },
+          "large": {
+            "url": "https://wx4.sinaimg.cn/orj960/663aa05aly1g8kmf14wplj21hc0u0wnv.jpg",
+            "width": 1706,
+            "height": 960,
+            "cut_type": 1,
+            "type": null
+          },
+          "original": {
+            "url": "https://wx4.sinaimg.cn/orj1080/663aa05aly1g8kmf14wplj21hc0u0wnv.jpg",
+            "width": "1920",
+            "height": "1080",
+            "cut_type": 1,
+            "type": null
+          },
+          "largest": {
+            "url": "https://wx4.sinaimg.cn/large/663aa05aly1g8kmf14wplj21hc0u0wnv.jpg",
+            "width": "1920",
+            "height": "1080",
+            "cut_type": 1,
+            "type": null
+          },
+          "mw2000": {
+            "url": "https://wx4.sinaimg.cn/mw2000/663aa05aly1g8kmf14wplj21hc0u0wnv.jpg",
+            "width": "1920",
+            "height": "1080",
+            "cut_type": 1,
+            "type": null
+          },
+          "object_id": "1042018:2f34f797260ea6caacb930ca5aca6a82",
+          "pic_id": "663aa05aly1g8kmf14wplj21hc0u0wnv",
+          "photo_tag": 0,
+          "type": "pic",
+          "pic_status": 0
+        }
+      },
+      "is_paid": false,
+      "pic_bg_new": "https://img.t.sinajs.cn/t6/skin/public/feed_cover/star_005_mobile_new.png?version=2021091501",
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 13,
+      "comments_count": 1,
+      "attitudes_count": 11,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "url_struct": [
+        {
+          "url_title": "网页链接",
+          "url_type_pic": "https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web.png",
+          "ori_url": "http://weibo.cn/sinaurl?toasturl=https%3A%2F%2Fopensourc.es%2Fblog%2Fconstraint-solver-1",
+          "short_url": "http://t.cn/AiBGh3ky",
+          "long_url": "https://opensourc.es/blog/constraint-solver-1",
+          "url_type": 0,
+          "result": true,
+          "actionlog": {
+            "act_type": 1,
+            "act_code": 300,
+            "oid": "",
+            "uuid": "",
+            "cardid": "",
+            "lcardid": "",
+            "uicode": "",
+            "luicode": "",
+            "fid": "",
+            "lfid": "",
+            "ext": "mid:4434482721811159|rid:15_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/AiBGh3ky|long_url:https://opensourc.es/blog/constraint-solver-1|comment_id:|miduid:1715118170|rootmid:4434482721811159|rootuid:1715118170|authorid:|uuid:|is_ad_weibo:0|analysis_card:url_struct"
+          },
+          "storage_type": "",
+          "hide": 0,
+          "position": 2,
+          "need_save_obj": 1,
+          "log": "su=AiBGh3ky&amp;mark=&amp;mid=4434482721811159"
+        }
+      ],
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    },
+    {
+      "visible": {
+        "type": 0,
+        "list_id": 0
+      },
+      "created_at": "Sun Nov 03 11:16:51 +0800 2019",
+      "id": 4434501507664534,
+      "idstr": "4434501507664534",
+      "mid": "4434501507664534",
+      "mblogid": "IetxAw9Tw",
+      "user": {
+        "id": 1773116334,
+        "idstr": "1773116334",
+        "pc_new": 6,
+        "screen_name": "zhh-4096",
+        "profile_image_url": "https://tvax4.sinaimg.cn/crop.0.0.480.480.50/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=iDK3BojYfE",
+        "profile_url": "/u/1773116334",
+        "verified": false,
+        "verified_type": -1,
+        "domain": "zhh2009",
+        "weihao": "",
+        "avatar_large": "https://tvax4.sinaimg.cn/crop.0.0.480.480.180/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=q5ku5ysn%2BL",
+        "avatar_hd": "https://tvax4.sinaimg.cn/crop.0.0.480.480.1024/69af9baely8fzb7pv1p8kj20dc0dctia.jpg?KID=imgbed,tva&amp;Expires=1642440971&amp;ssig=gygVwxSXkB",
+        "follow_me": false,
+        "following": true,
+        "mbrank": 4,
+        "mbtype": 2,
+        "planet_video": true
+      },
+      "can_edit": false,
+      "text_raw": "前两天看到PostgreSQL的SSI(Serializable Snapshot Isolation)我心想说怎么有点眼熟，早上在电脑上搜论文果真找到了，我2015年还在微博提到过，链接都记下来了 http://t.cn/AiBGNhBO 是Michael James Cahill 2009年的博士论文。一个小领域，足足写了130多页的pdf论文！ ​​​",
+      "text": "前两天看到PostgreSQL的SSI(Serializable Snapshot Isolation)我心想说怎么有点眼熟，早上在电脑上搜论文果真找到了，我2015年还在微博提到过，链接都记下来了 &lt;a target=\"_blank\" href=\"http://weibo.cn/sinaurl?toasturl=http%3A%2F%2Fses.library.usyd.edu.au%2F%2Fbitstream%2F2123%2F5353%2F1%2Fmichael-cahill-2009-thesis.pdf\"&gt;&lt;img class=\"icon-link\" src=\"https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web_default.png\"/&gt;网页链接&lt;/a&gt; 是Michael James Cahill 2009年的博士论文。一个小领域，足足写了130多页的pdf论文！ ​​​",
+      "textLength": 249,
+      "source": "微博 weibo.com",
+      "favorited": true,
+      "rid": "16_0_0_4806593962222480546_0_0_0",
+      "pic_ids": [],
+      "geo": null,
+      "pic_num": 0,
+      "is_paid": false,
+      "mblog_vip_type": 0,
+      "number_display_strategy": {
+        "apply_scenario_flag": 3,
+        "display_text_min_number": 1000000,
+        "display_text": "100万+"
+      },
+      "reposts_count": 3,
+      "comments_count": 0,
+      "attitudes_count": 7,
+      "attitudes_status": 0,
+      "isLongText": false,
+      "mlevel": 0,
+      "content_auth": 0,
+      "is_show_bulletin": 2,
+      "comment_manage_info": {
+        "comment_permission_type": -1,
+        "approval_comment_type": 0,
+        "comment_sort_type": 0
+      },
+      "share_repost_type": 0,
+      "url_struct": [
+        {
+          "url_title": "网页链接",
+          "url_type_pic": "https://h5.sinaimg.cn/upload/2015/09/25/3/timeline_card_small_web.png",
+          "ori_url": "http://weibo.cn/sinaurl?toasturl=http%3A%2F%2Fses.library.usyd.edu.au%2F%2Fbitstream%2F2123%2F5353%2F1%2Fmichael-cahill-2009-thesis.pdf",
+          "short_url": "http://t.cn/AiBGNhBO",
+          "long_url": "http://ses.library.usyd.edu.au//bitstream/2123/5353/1/michael-cahill-2009-thesis.pdf",
+          "url_type": 0,
+          "result": true,
+          "actionlog": {
+            "act_type": 1,
+            "act_code": 300,
+            "oid": "",
+            "uuid": "",
+            "cardid": "",
+            "lcardid": "",
+            "uicode": "",
+            "luicode": "",
+            "fid": "",
+            "lfid": "",
+            "ext": "mid:4434501507664534|rid:16_0_0_4806593962222480546_0_0_0|short_url:http://t.cn/AiBGNhBO|long_url:http://ses.library.usyd.edu.au//bitstream/2123/5353/1/michael-cahill-2009-thesis.pdf|comment_id:|miduid:1773116334|rootmid:4434501507664534|rootuid:1773116334|authorid:|uuid:|is_ad_weibo:0|analysis_card:url_struct"
+          },
+          "storage_type": "",
+          "hide": 0,
+          "position": 2,
+          "need_save_obj": 1,
+          "log": "su=AiBGNhBO&amp;mark=&amp;mid=4434501507664534"
+        }
+      ],
+      "mblogtype": 0,
+      "showFeedRepost": false,
+      "showFeedComment": false,
+      "pictureViewerSign": false,
+      "showPictureViewer": false,
+      "rcList": []
+    }
+  ]
+}

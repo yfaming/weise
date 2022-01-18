@@ -8,16 +8,13 @@ pub struct Post {
     pub user: User,
     pub text_raw: String,
     pub is_long_text: bool,
-
     pub media_asset: MediaAsset,
-
-    // 这个字段有点麻烦。微博 API 返回的内容形如: Sun Jan 09 11:50:55 +0800 2022
     pub created_at: DateTime<FixedOffset>,
 
     pub retweeted_post: Option<Box<Post>>,
 }
 
-#[derive(Clone, Debug, PartialEq, Deserialize, Serialize)]
+#[derive(Clone, Debug, PartialEq, Deserialize, Serialize, Default)]
 pub struct User {
     #[serde(default)]
     pub id: i64,
