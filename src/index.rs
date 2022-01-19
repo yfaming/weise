@@ -53,8 +53,14 @@ impl WeiboIndexer {
                 post.media_type() as u8 as u64,
             );
             if let Some(retweeted_post) = &post.retweeted_post {
-                doc.add_text(schema.get_field("retweeted_user").unwrap(), &retweeted_post.user.screen_name);
-                doc.add_text(schema.get_field("retweeted_text").unwrap(), &retweeted_post.text_raw);
+                doc.add_text(
+                    schema.get_field("retweeted_user").unwrap(),
+                    &retweeted_post.user.screen_name,
+                );
+                doc.add_text(
+                    schema.get_field("retweeted_text").unwrap(),
+                    &retweeted_post.text_raw,
+                );
             }
 
             index_writer.add_document(doc);
@@ -128,15 +134,23 @@ impl SearchedWeiboPost {
 
         let retweeted_user = match field_values.get("retweeted_user") {
             None => None,
-            Some(retweeted_user) => retweeted_user.text().map(|retweeted_user| retweeted_user.to_string()),
+            Some(retweeted_user) => retweeted_user
+                .text()
+                .map(|retweeted_user| retweeted_user.to_string()),
         };
         let retweeted_text = match field_values.get("retweeted_text") {
             None => None,
-            Some(retweeted_text) => retweeted_text.text().map(|retweeted_text| retweeted_text.to_string()),
+            Some(retweeted_text) => retweeted_text
+                .text()
+                .map(|retweeted_text| retweeted_text.to_string()),
         };
 
         SearchedWeiboPost {
-            url, user, text, retweeted_user, retweeted_text
+            url,
+            user,
+            text,
+            retweeted_user,
+            retweeted_text,
         }
     }
 }

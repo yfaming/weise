@@ -1,7 +1,5 @@
 use structopt::StructOpt;
-use weise::index::{WeiboIndexer, WeiboSearchParams, SearchedWeiboPost};
-
-const INDEX_DIR: &str = ".index";
+use weise::index::{SearchedWeiboPost, WeiboIndexer, WeiboSearchParams};
 
 fn main() -> Result<(), anyhow::Error> {
     let opt = Opt::from_args();
@@ -12,7 +10,8 @@ fn main() -> Result<(), anyhow::Error> {
     };
     let limit = opt.limit.unwrap_or(10);
 
-    let weibo_indexer = WeiboIndexer::with_index_dir(INDEX_DIR)?;
+    let index_dir = dirs::home_dir().unwrap().join(".weibofav_index");
+    let weibo_indexer = WeiboIndexer::with_index_dir(&index_dir)?;
     let posts = weibo_indexer.search(&params, limit)?;
     for post in posts {
         prettify_post(&post);
@@ -36,9 +35,8 @@ fn prettify_post(post: &SearchedWeiboPost) {
 }
 
 #[derive(Debug, StructOpt)]
-#[structopt(name = "xunfei", about = "讯飞语音转写命令行工具")]
+#[structopt(name = "weibofav", about = "微博搜索")]
 struct Opt {
-    #[structopt(long)]
     query: Option<String>,
     #[structopt(long)]
     media_type: Option<u8>,
