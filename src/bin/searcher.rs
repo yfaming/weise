@@ -32,7 +32,7 @@ fn prettify_post(post: &SearchedWeiboPost) {
         let tmp = retweeted_text.replace("\n", " ");
         s.push_str(&tmp);
     }
-    println!("{}", s);
+    println!("{}\n", s);
 }
 
 #[derive(Debug, StructOpt)]

@@ -12,17 +12,26 @@ pub struct WeiboIndexer {
 
 impl WeiboIndexer {
     pub fn with_index_dir<P: AsRef<Path>>(dir: P) -> Result<WeiboIndexer, anyhow::Error> {
+        let jieba_tokenizer = tantivy_jieba::JiebaTokenizer {};
+        let text_field_indexing = TextFieldIndexing::default()
+            .set_tokenizer("jieba")
+            .set_index_option(IndexRecordOption::WithFreqsAndPositions);
+        let text_options = TextOptions::default()
+            .set_indexing_options(text_field_indexing)
+            .set_stored();
+
         let mut schema_builder = Schema::builder();
         schema_builder.add_text_field("url", STRING | STORED);
         schema_builder.add_text_field("user", STRING | STORED);
-        schema_builder.add_text_field("text", TEXT | STORED);
+        schema_builder.add_text_field("text", text_options.clone());
         schema_builder.add_u64_field("media_type", IntOptions::default().set_indexed());
         schema_builder.add_text_field("retweeted_user", STRING | STORED);
-        schema_builder.add_text_field("retweeted_text", TEXT | STORED);
+        schema_builder.add_text_field("retweeted_text", text_options.clone());
         let schema = schema_builder.build();
 
         let dir = MmapDirectory::open(dir)?;
         let index = Index::open_or_create(dir, schema)?;
+        index.tokenizers().register("jieba", jieba_tokenizer);
         Ok(WeiboIndexer { index })
     }
 
