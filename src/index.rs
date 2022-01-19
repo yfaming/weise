@@ -17,6 +17,8 @@ impl WeiboIndexer {
         schema_builder.add_text_field("user", STRING | STORED);
         schema_builder.add_text_field("text", TEXT | STORED);
         schema_builder.add_u64_field("media_type", IntOptions::default().set_indexed());
+        schema_builder.add_text_field("retweeted_user", STRING | STORED);
+        schema_builder.add_text_field("retweeted_text", TEXT | STORED);
         let schema = schema_builder.build();
 
         let dir = MmapDirectory::open(dir)?;
@@ -41,6 +43,11 @@ impl WeiboIndexer {
                 schema.get_field("media_type").unwrap(),
                 post.media_type() as u8 as u64,
             );
+            if let Some(retweeted_post) = &post.retweeted_post {
+                doc.add_text(schema.get_field("retweeted_user").unwrap(), &retweeted_post.user.screen_name);
+                doc.add_text(schema.get_field("retweeted_text").unwrap(), &retweeted_post.text_raw);
+            }
+
             index_writer.add_document(doc);
         }
         index_writer.commit()?;
@@ -51,7 +58,7 @@ impl WeiboIndexer {
         &self,
         params: &WeiboSearchParams,
         limit: usize,
-    ) -> Result<Vec<String>, anyhow::Error> {
+    ) -> Result<Vec<SearchedWeiboPost>, anyhow::Error> {
         let mut query_str = String::new();
         if let Some(query) = &params.query {
             let text_query = format!("text:{}", query);
@@ -72,18 +79,55 @@ impl WeiboIndexer {
         let searcher = reader.searcher();
         let top_docs = searcher.search(&query, &TopDocs::with_limit(limit))?;
 
+        let mut posts = vec![];
         let schema = self.schema();
-        let mut res = vec![];
         for (_score, doc_address) in top_docs {
             let retrieved_doc = searcher.doc(doc_address)?;
-            res.push(schema.to_json(&retrieved_doc));
+            posts.push(SearchedWeiboPost::from_doc(&schema, &retrieved_doc));
         }
 
-        Ok(res)
+        Ok(posts)
     }
 }
 
 pub struct WeiboSearchParams {
     pub media_type: Option<u8>,
     pub query: Option<String>,
+}
+
+pub struct SearchedWeiboPost {
+    pub url: String,
+    pub user: String,
+    pub text: String,
+    pub retweeted_user: Option<String>,
+    pub retweeted_text: Option<String>,
+}
+
+impl SearchedWeiboPost {
+    pub fn from_doc(schema: &Schema, doc: &Document) -> SearchedWeiboPost {
+        use std::collections::HashMap;
+
+        let mut field_values = HashMap::new();
+        for field_value in doc.field_values() {
+            let field_name = schema.get_field_name(field_value.field()).to_string();
+            field_values.insert(field_name, field_value.value());
+        }
+
+        let url = field_values["url"].text().unwrap().to_string();
+        let user = field_values["user"].text().unwrap().to_string();
+        let text = field_values["text"].text().unwrap().to_string();
+
+        let retweeted_user = match field_values.get("retweeted_user") {
+            None => None,
+            Some(retweeted_user) => retweeted_user.text().map(|retweeted_user| retweeted_user.to_string()),
+        };
+        let retweeted_text = match field_values.get("retweeted_text") {
+            None => None,
+            Some(retweeted_text) => retweeted_text.text().map(|retweeted_text| retweeted_text.to_string()),
+        };
+
+        SearchedWeiboPost {
+            url, user, text, retweeted_user, retweeted_text
+        }
+    }
 }
