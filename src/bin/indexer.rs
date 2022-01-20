@@ -1,4 +1,5 @@
 use serde::Deserialize;
+use std::collections::HashSet;
 use std::fs;
 use weise::index::WeiboIndexer;
 use weise::weibo::raw::RawPost;
@@ -19,6 +20,7 @@ pub fn index_all_posts() -> Result<(), anyhow::Error> {
 
     let weibo_indexer = WeiboIndexer::with_index_dir(INDEX_DIR)?;
     let mut posts = vec![];
+    let mut post_ids = HashSet::new();
     const MAX_PAGE_ID: u32 = 1792;
     for page_id in 1..=MAX_PAGE_ID {
         println!("=============== page_id: {}", page_id);
@@ -29,8 +31,9 @@ pub fn index_all_posts() -> Result<(), anyhow::Error> {
 
         for raw in res.data {
             let post = raw.normalize();
-            if post.is_valid() {
-                posts.push(post)
+            if post.is_valid() && !post_ids.contains(&post.id) {
+                post_ids.insert(post.id);
+                posts.push(post);
             }
         }
 
