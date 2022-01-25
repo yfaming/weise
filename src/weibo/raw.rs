@@ -305,7 +305,7 @@ mod tests {
 
     #[test]
     fn test_parse_text_weibo_post() -> Result<(), anyhow::Error> {
-        let raw: RawPost = serde_json::from_str(include_str!("../../data/text.json"))?;
+        let raw: RawPost = serde_json::from_str(include_str!("../../test_data/text.json"))?;
         let post = raw.normalize();
         assert_eq!(post.media_asset, MediaAsset::None);
         assert_eq!(
@@ -320,7 +320,7 @@ mod tests {
 
     #[test]
     fn test_parse_retweeted_text_weibo_post() -> Result<(), anyhow::Error> {
-        let raw: RawPost = serde_json::from_str(include_str!("../../data/text_retweet.json"))?;
+        let raw: RawPost = serde_json::from_str(include_str!("../../test_data/text_retweet.json"))?;
         let post = raw.normalize();
         assert_eq!(post.media_asset, MediaAsset::None);
         assert!(post.is_retweet());
@@ -329,7 +329,7 @@ mod tests {
 
     #[test]
     fn test_parse_picture_weibo_post() -> Result<(), anyhow::Error> {
-        let raw: RawPost = serde_json::from_str(include_str!("../../data/picture.json"))?;
+        let raw: RawPost = serde_json::from_str(include_str!("../../test_data/picture.json"))?;
         let post = raw.normalize();
 
         // 此微博中的图片数量为 18，但 pic_infos 中只列出了前 9 张的信息
@@ -354,7 +354,7 @@ mod tests {
 
     #[test]
     fn test_parse_retweeted_picture_weibo_post() -> Result<(), anyhow::Error> {
-        let raw: RawPost = serde_json::from_str(include_str!("../../data/picture_retweet.json"))?;
+        let raw: RawPost = serde_json::from_str(include_str!("../../test_data/picture_retweet.json"))?;
         let post = raw.normalize();
         assert!(post.is_retweet());
         assert_eq!(
@@ -376,7 +376,7 @@ mod tests {
 
     #[test]
     fn test_parse_video_weibo_post() -> Result<(), anyhow::Error> {
-        let raw: RawPost = serde_json::from_str(include_str!("../../data/video.json"))?;
+        let raw: RawPost = serde_json::from_str(include_str!("../../test_data/video.json"))?;
         let post = raw.normalize();
         assert!(!post.is_retweet());
         assert_eq!(
@@ -393,7 +393,7 @@ mod tests {
 
     #[test]
     fn test_parse_retweeted_video_weibo_post() -> Result<(), anyhow::Error> {
-        let raw: RawPost = serde_json::from_str(include_str!("../../data/video_retweet.json"))?;
+        let raw: RawPost = serde_json::from_str(include_str!("../../test_data/video_retweet.json"))?;
         let post = raw.normalize();
 
         assert!(post.is_retweet());

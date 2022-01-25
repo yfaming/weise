@@ -2,18 +2,29 @@ use serde::Deserialize;
 use std::io::Write;
 use std::thread::sleep;
 use std::time::Duration;
+use structopt::StructOpt;
 use thirtyfour::prelude::*;
 use weise::weibo::post::Post;
 use weise::weibo::raw::RawPost;
 
-const MAX_PAGE_ID: u32 = 1792;
 const DIR: &str = "data";
+
+#[derive(Debug, StructOpt)]
+#[structopt(name = "crawl_weibo_favs", about = "crawl weibo favs")]
+struct Opt {
+    #[structopt(long)]
+    start_page: u32,
+    #[structopt(long)]
+    end_page: u32,
+}
 
 #[tokio::main]
 async fn main() -> Result<(), anyhow::Error> {
+    let opt = Opt::from_args();
+
     let weibo_client = WeiboClient::login().await?;
 
-    for page_id in 1..=MAX_PAGE_ID {
+    for page_id in opt.start_page..=opt.end_page {
         let page_content = weibo_client.get_favs_raw(page_id).await?;
         let file_name = format!("{}/page_{:04}.json", DIR, page_id);
         let mut f = std::fs::File::create(file_name)?;
