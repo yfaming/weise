@@ -83,6 +83,11 @@ impl WeiboIndexer {
             let media_query = format!("media_type:{}", media_type);
             query_str.push_str(&media_query);
         }
+        if let Some(user) = &params.user {
+            let user_query = format!("user:{}", user);
+            query_str.push_str(&user_query);
+        }
+
         let query_parser = QueryParser::for_index(&self.index, vec![]);
         let query = query_parser.parse_query(&query_str)?;
 
@@ -107,6 +112,7 @@ impl WeiboIndexer {
 
 pub struct WeiboSearchParams {
     pub media_type: Option<u8>,
+    pub user: Option<String>,
     pub query: Option<String>,
 }
 

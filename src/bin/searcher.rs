@@ -6,6 +6,7 @@ fn main() -> Result<(), anyhow::Error> {
 
     let params = WeiboSearchParams {
         media_type: opt.media_type,
+        user: opt.user,
         query: opt.query,
     };
     let limit = opt.limit.unwrap_or(10);
@@ -40,6 +41,8 @@ struct Opt {
     query: Option<String>,
     #[structopt(long)]
     media_type: Option<u8>,
+    #[structopt(long)]
+    user: Option<String>,
     #[structopt(long)]
     limit: Option<usize>,
 }
