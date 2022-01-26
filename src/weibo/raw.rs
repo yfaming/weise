@@ -354,7 +354,8 @@ mod tests {
 
     #[test]
     fn test_parse_retweeted_picture_weibo_post() -> Result<(), anyhow::Error> {
-        let raw: RawPost = serde_json::from_str(include_str!("../../test_data/picture_retweet.json"))?;
+        let raw: RawPost =
+            serde_json::from_str(include_str!("../../test_data/picture_retweet.json"))?;
         let post = raw.normalize();
         assert!(post.is_retweet());
         assert_eq!(
@@ -393,7 +394,8 @@ mod tests {
 
     #[test]
     fn test_parse_retweeted_video_weibo_post() -> Result<(), anyhow::Error> {
-        let raw: RawPost = serde_json::from_str(include_str!("../../test_data/video_retweet.json"))?;
+        let raw: RawPost =
+            serde_json::from_str(include_str!("../../test_data/video_retweet.json"))?;
         let post = raw.normalize();
 
         assert!(post.is_retweet());

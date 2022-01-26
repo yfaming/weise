@@ -2,9 +2,9 @@ use serde::Deserialize;
 use std::collections::HashSet;
 use std::fs;
 use std::path::Path;
+use walkdir::WalkDir;
 use weise::index::WeiboIndexer;
 use weise::weibo::raw::RawPost;
-use walkdir::WalkDir;
 
 const INDEX_DIR: &str = ".index";
 
@@ -29,7 +29,7 @@ pub fn index_all_posts() -> Result<(), anyhow::Error> {
         let path = entry.path();
         println!("============ {}", path.display());
         if path == Path::new("data") {
-            continue
+            continue;
         }
 
         let content = fs::read_to_string(path)?;
