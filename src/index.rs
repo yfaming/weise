@@ -80,11 +80,11 @@ impl WeiboIndexer {
             query_str.push_str(&text_query);
         }
         if let Some(media_type) = params.media_type {
-            let media_query = format!("media_type:{}", media_type);
+            let media_query = format!(" media_type:{}", media_type);
             query_str.push_str(&media_query);
         }
         if let Some(user) = &params.user {
-            let user_query = format!("user:{}", user);
+            let user_query = format!(" user:{}", user);
             query_str.push_str(&user_query);
         }
 
