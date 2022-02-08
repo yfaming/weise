@@ -26,7 +26,7 @@ impl WeiboIndexer {
         schema_builder.add_text_field("text", text_options.clone());
         schema_builder.add_u64_field("media_type", IntOptions::default().set_indexed());
         schema_builder.add_text_field("retweeted_user", STRING | STORED);
-        schema_builder.add_text_field("retweeted_text", text_options.clone());
+        schema_builder.add_text_field("retweeted_text", text_options);
         let schema = schema_builder.build();
 
         let dir = MmapDirectory::open(dir)?;
