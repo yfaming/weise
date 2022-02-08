@@ -16,6 +16,8 @@ pub struct Config {
 }
 
 pub async fn command(config: Config) -> Result<(), anyhow::Error> {
+    config.data_dir_config.ensure_data_dir_exists()?;
+
     let params = WeiboSearchParams {
         media_type: config.media_type,
         user: config.user,

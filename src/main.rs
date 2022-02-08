@@ -21,6 +21,7 @@ enum Command {
     Index(commands::index::Config),
     Search(commands::search::Config),
     Tombstone(commands::tombstone::Config),
+    Settings(commands::settings::Config),
 }
 
 #[tokio::main]
@@ -33,6 +34,7 @@ async fn main() -> Result<(), anyhow::Error> {
         Command::Index(config) => commands::index::command(config).await?,
         Command::Search(config) => commands::search::command(config).await?,
         Command::Tombstone(config) => commands::tombstone::command(config).await?,
+        Command::Settings(config) => commands::settings::command(config).await?,
     }
     Ok(())
 }

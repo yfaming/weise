@@ -54,4 +54,5 @@ impl DataDirConfig {
 pub mod crawl;
 pub mod index;
 pub mod search;
+pub mod settings;
 pub mod tombstone;

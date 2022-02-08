@@ -23,6 +23,7 @@ pub struct AddConfig {
 }
 
 pub async fn command(config: Config) -> Result<(), anyhow::Error> {
+    config.data_dir_config.ensure_data_dir_exists()?;
     let storage = config.data_dir_config.storage()?;
     match config.command {
         Command::Add(add_config) => tombstone_add(storage, add_config)?,
