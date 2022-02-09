@@ -1,4 +1,5 @@
 use crate::weibo::post::Post;
+use rusqlite::types::{FromSql, ToSql};
 use rusqlite::{named_params, Connection};
 use std::collections::HashSet;
 use std::path::Path;
@@ -48,7 +49,7 @@ impl Storage {
         let settings_table_creation = r#"
             create table if not exists settings (
                 name text unique,
-                value text not null
+                value blob not null
             );
         "#;
 
@@ -204,24 +205,24 @@ impl<'a> PostTombstoneStorage<'a> {
 impl<'a> SettingsStorage<'a> {
     pub fn get<T>(&self, name: &str) -> Result<Option<T>, anyhow::Error>
     where
-        T: serde::de::DeserializeOwned,
+        T: FromSql,
     {
         let sql = "select value from settings where name = :name";
         let mut stmt = self.storage.conn.prepare_cached(sql)?;
         let mut rows = stmt.query(named_params! {":name": name})?;
         match rows.next() {
             Ok(Some(row)) => {
-                let value: String = row.get(0)?;
-                Ok(Some(serde_json::from_reader(value.as_bytes())?))
+                let value = row.get(0)?;
+                Ok(Some(value))
             }
             Ok(None) => Ok(None),
             Err(e) => Err(e.into()),
         }
     }
 
-    pub fn set<T>(&self, name: &str, value: &T) -> Result<(), anyhow::Error>
+    pub fn set<T>(&self, name: &str, value: T) -> Result<(), anyhow::Error>
     where
-        T: serde::Serialize,
+        T: ToSql,
     {
         let sql = "insert or replace into settings (name, value) values (:name, :value)";
 
@@ -229,7 +230,7 @@ impl<'a> SettingsStorage<'a> {
             sql,
             named_params! {
                 ":name": name,
-                ":value": serde_json::to_string(value)?,
+                ":value": value,
             },
         )?;
         Ok(())
