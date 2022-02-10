@@ -9,9 +9,9 @@ pub struct Config {
     query: Option<String>,
     #[clap(long)]
     media_type: Option<u8>,
-    #[clap(long)]
+    #[clap(short, long)]
     user: Option<String>,
-    #[clap(long, default_value = "10")]
+    #[clap(short, long, default_value = "10")]
     limit: usize,
 }
 
