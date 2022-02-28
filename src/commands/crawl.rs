@@ -21,7 +21,7 @@ pub struct Config {
         long,
         help = "形如 http://localhost:4444。可通过 chromedriver --port=4444 运行 chromedriver"
     )]
-    webdirver_url: String,
+    webdriver_url: String,
 }
 
 pub async fn command(config: Config) -> Result<(), anyhow::Error> {
@@ -45,7 +45,7 @@ pub async fn command(config: Config) -> Result<(), anyhow::Error> {
         storage.posts().delete_all()?;
     }
 
-    let weibo_client = WeiboClient::login(&config.webdirver_url).await?;
+    let weibo_client = WeiboClient::login(&config.webdriver_url).await?;
     for page_id in config.start_page..=end_page {
         let posts = weibo_client.get_favs_by_page(page_id).await?;
         info!("page={}, post count: {}", page_id, posts.len());
@@ -61,11 +61,11 @@ pub struct WeiboClient {
 }
 
 impl WeiboClient {
-    pub async fn login(webdirver_url: &str) -> Result<WeiboClient, anyhow::Error> {
-        // webdirver_url 形如 http://localhost:4444
+    pub async fn login(webdriver_url: &str) -> Result<WeiboClient, anyhow::Error> {
+        // webdriver_url 形如 http://localhost:4444
         // 在此之前，需要先通过如 chromedriver --port=4444 的命令运行 chromedriver
         let caps = DesiredCapabilities::chrome();
-        let driver = WebDriver::new(webdirver_url, &caps).await?;
+        let driver = WebDriver::new(webdriver_url, &caps).await?;
         driver.get("https://weibo.com/").await?;
         // TODO: 改为等待登录成功
         sleep(Duration::from_secs(20));
