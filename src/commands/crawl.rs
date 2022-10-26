@@ -1,3 +1,4 @@
+use crate::chromedriver::start_chromedriver;
 use crate::commands::DataDirConfig;
 use crate::weibo::post::Post;
 use crate::weibo::raw::RawPost;
@@ -16,12 +17,6 @@ pub struct Config {
     start_page: u32,
     #[clap(long)]
     end_page: Option<u32>,
-
-    #[clap(
-        long,
-        help = "形如 http://localhost:4444。可通过 chromedriver --port=4444 运行 chromedriver"
-    )]
-    webdriver_url: String,
 }
 
 pub async fn command(config: Config) -> Result<(), anyhow::Error> {
@@ -37,7 +32,7 @@ pub async fn command(config: Config) -> Result<(), anyhow::Error> {
     };
     info!("crawl from page={} to {}", config.start_page, end_page);
 
-    let weibo_client = WeiboClient::login(&config.webdriver_url).await?;
+    let weibo_client = WeiboClient::login().await?;
     for page_id in config.start_page..=end_page {
         let posts = weibo_client.get_favs_by_page(page_id).await?;
         info!("page={}, post count: {}", page_id, posts.len());
@@ -53,10 +48,10 @@ pub struct WeiboClient {
 }
 
 impl WeiboClient {
-    pub async fn login(webdriver_url: &str) -> Result<WeiboClient, anyhow::Error> {
-        // webdriver_url 形如 http://localhost:4444
-        // 在此之前，需要先通过如 chromedriver --port=4444 的命令运行 chromedriver
-        let driver = WebDriver::new(webdriver_url, DesiredCapabilities::chrome()).await?;
+    pub async fn login() -> Result<WeiboClient, anyhow::Error> {
+        let chromedriver = start_chromedriver(4444)?;
+        let cap = DesiredCapabilities::chrome();
+        let driver = WebDriver::new(&chromedriver.server_url(), cap).await?;
         driver.goto("https://weibo.com/").await?;
         // TODO: 改为等待登录成功
         sleep(Duration::from_secs(20));
