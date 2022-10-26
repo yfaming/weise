@@ -37,14 +37,6 @@ pub async fn command(config: Config) -> Result<(), anyhow::Error> {
     };
     info!("crawl from page={} to {}", config.start_page, end_page);
 
-    if config.start_page <= 1 {
-        info!(
-            "delete all local data first, since we're starting from page={}",
-            config.start_page
-        );
-        storage.posts().delete_all()?;
-    }
-
     let weibo_client = WeiboClient::login(&config.webdriver_url).await?;
     for page_id in config.start_page..=end_page {
         let posts = weibo_client.get_favs_by_page(page_id).await?;
