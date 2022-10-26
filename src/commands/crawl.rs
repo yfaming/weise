@@ -64,37 +64,30 @@ impl WeiboClient {
     pub async fn login(webdriver_url: &str) -> Result<WeiboClient, anyhow::Error> {
         // webdriver_url 形如 http://localhost:4444
         // 在此之前，需要先通过如 chromedriver --port=4444 的命令运行 chromedriver
-        let caps = DesiredCapabilities::chrome();
-        let driver = WebDriver::new(webdriver_url, &caps).await?;
-        driver.get("https://weibo.com/").await?;
+        let driver = WebDriver::new(webdriver_url, DesiredCapabilities::chrome()).await?;
+        driver.goto("https://weibo.com/").await?;
         // TODO: 改为等待登录成功
         sleep(Duration::from_secs(20));
 
         Ok(WeiboClient { driver })
     }
 
-    pub async fn close(&self) -> Result<(), anyhow::Error> {
-        self.driver.close().await?;
+    pub async fn close(self) -> Result<(), anyhow::Error> {
+        self.driver.quit().await?;
         Ok(())
     }
 
     pub async fn get_favs_by_page(&self, page_id: u32) -> Result<Vec<Post>, anyhow::Error> {
         self.driver
-            .get(format!(
+            .goto(format!(
                 "https://weibo.com/ajax/favorites/all_fav?page={}",
                 page_id
             ))
             .await?;
-        let content = self.driver.page_source().await?;
-        let start = content
-            .find('{')
-            .ok_or(anyhow::format_err!("invalid result"))?;
-        let end = content
-            .find("</pre></body></html>")
-            .ok_or(anyhow::format_err!("invalid result"))?;
 
+        let content = self.driver.find(By::Css("pre")).await?.text().await?;
         let mut posts = vec![];
-        let res: FavResponse = serde_json::from_str(&content[start..end])?;
+        let res: FavResponse = serde_json::from_str(&content)?;
         for rp in res.data {
             let p = rp.normalize();
             posts.push(p);
