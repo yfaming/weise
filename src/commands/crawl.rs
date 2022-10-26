@@ -1,4 +1,4 @@
-use crate::chromedriver::start_chromedriver;
+use crate::chromedriver::{start_chromedriver, ChromeDriverProcess};
 use crate::commands::DataDirConfig;
 use crate::weibo::post::Post;
 use crate::weibo::raw::RawPost;
@@ -34,16 +34,41 @@ pub async fn command(config: Config) -> Result<(), anyhow::Error> {
 
     let weibo_client = WeiboClient::login().await?;
     for page_id in config.start_page..=end_page {
-        let posts = weibo_client.get_favs_by_page(page_id).await?;
-        info!("page={}, post count: {}", page_id, posts.len());
-        storage.posts().batch_add(&posts)?;
+        let posts = get_favs_by_page_with_retry(&weibo_client, page_id, 3).await?;
+        let mut valid_posts = vec![];
+        for p in posts {
+            if p.is_valid() {
+                valid_posts.push(p);
+            } else {
+                info!("invalid post, id: {}, url: {}", p.id, p.url());
+            }
+        }
+        info!("page={}, valid post count: {}", page_id, valid_posts.len());
+        storage.posts().batch_add(&valid_posts)?;
     }
 
     weibo_client.close().await?;
     Ok(())
 }
 
+async fn get_favs_by_page_with_retry(
+    weibo_client: &WeiboClient,
+    page_id: u32,
+    retries: u32,
+) -> Result<Vec<Post>, anyhow::Error> {
+    for i in 0..retries {
+        match weibo_client.get_favs_by_page(page_id).await {
+            Ok(posts) => return Ok(posts),
+            Err(e) if i == retries - 1 => return Err(e.into()),
+            _ => continue,
+        }
+    }
+    unreachable!()
+}
+
 pub struct WeiboClient {
+    #[allow(unused)]
+    chromedriver: ChromeDriverProcess,
     driver: WebDriver,
 }
 
@@ -56,7 +81,10 @@ impl WeiboClient {
         // TODO: 改为等待登录成功
         sleep(Duration::from_secs(20));
 
-        Ok(WeiboClient { driver })
+        Ok(WeiboClient {
+            chromedriver,
+            driver,
+        })
     }
 
     pub async fn close(self) -> Result<(), anyhow::Error> {

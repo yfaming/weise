@@ -35,7 +35,8 @@ impl Storage {
             create table if not exists post (
                 id integer primary key,
                 url text not null,
-                content text not null
+                content text not null,
+                faved integer not null default 0
             );
         "#;
 
@@ -77,7 +78,7 @@ impl Storage {
 
 impl<'a> PostStorage<'a> {
     pub fn add(&self, post: &Post) -> Result<(), anyhow::Error> {
-        let sql = "insert or replace into post (id, url, content) values (:id, :url, :content)";
+        let sql = "insert or replace into post (id, url, content, faved) values (:id, :url, :content, :faved)";
 
         let content = serde_json::to_string_pretty(post)?;
         self.storage.conn.execute(
@@ -86,13 +87,14 @@ impl<'a> PostStorage<'a> {
                 ":id": post.id,
                 ":url": post.url(),
                 ":content": content,
+                ":faved": 1,
             },
         )?;
         Ok(())
     }
 
     pub fn batch_add(&mut self, posts: &[Post]) -> Result<(), anyhow::Error> {
-        let sql = "insert or replace into post (id, url, content) values (:id, :url, :content)";
+        let sql = "insert or replace into post (id, url, content, faved) values (:id, :url, :content, :faved)";
         let tx = self.storage.conn.unchecked_transaction()?;
         {
             // seems NLL not working here.
@@ -103,6 +105,7 @@ impl<'a> PostStorage<'a> {
                     ":id": post.id,
                     ":url": post.url(),
                     ":content": content,
+                    ":faved": 1,
                 })?;
             }
         }
